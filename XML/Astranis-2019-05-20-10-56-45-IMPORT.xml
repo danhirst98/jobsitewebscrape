@@ -1,0 +1,536 @@
+<wpjb>
+  <jobs>
+    <job>
+      <id>1999181366</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Communications/DSP Engineer</job_title>
+    <job_slug>astraniscommunicationsdsp-engineer2019-05-20</job_slug>
+    <job_description>Communications/DSP EngineerSan Francisco, CAEngineeringFull-timeApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online. And to pull it off we have to reinvent microwave radio systems in space using SDRs.Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with real hardware and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleWork with a small team of signal processing/communications engineers to develop and implement various radio functions (filtering, gain control, frequency tracking, digital upconversion/downconversion, linearization, timing and phase recovery, equalization, FEC, symbol mapping/demapping, framing, etc )Develop and maintain an end-to-end simulation of the entire radio system in Python Work closely with FPGA developers to implement, test and debug all signal processing modulesDesign spectrum diagnostics tool to support monitoring and debugging of the radio on orbitRequirementsBachelor of Science degree in electrical engineering or equivalentStrong fundamentals in "signals and systems" (basic transforms, aliasing, analysis in both continuous and discrete domains, interpolation, decimation, etc) Experience with digital communication theory, simulation, implementation and debugging (modulation, coding)Experience with testing and debugging radio hardware (signal generator, signal analyzer, network analyzer, oscilloscope)Strong RF fundamentals (amplifiers, antennas, analog filters, gain and delay variation, reflections, compression, etc)Strong software/firmware fundamentals (experience writing firmware for DSP/MCU/FPGA, scripting, developing simulations, etc)A passion for hardware development, including working in a fast-paced environment and hands-on design and developmentUS Citizenship or Green CardBonusMS or PhD in a signal processing field (digital communications, image processing, audio processing, ML/AI, etc)3 years experience working on software defined radios or modem ASICsExperience with PythonExperience with GNU RadioExperience with radio test planning, automation and executionExperience with multi-rate signal processing techniques (polyphase filter banks, resampling techniques)Experience with RTL development (and/or embedded C)Experience with fixed point implementation (managing precision, quantization noise, underflow, overflow, unit testing, etc)Experience with PA linearizationExperience with multi-antenna systems (beamforming, MIMO)Experience with DVB-S2/x, DVB-RCS2 standardsExperience with Satellite radio systems (ground segment and/or space segment)Apply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>3502487173</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Electrical Engineer</job_title>
+    <job_slug>astraniselectrical-engineer2019-05-20</job_slug>
+    <job_description>Electrical EngineerSan Francisco, CAEngineeringFull-timeApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online. And to pull it off we have to reinvent microwave radio systems in space using SDRs.Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with real hardware and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleDesign circuits + PCBs for various spacecraft subsystemsTest + validate hardware systems across the spacecraftAssist with low level software to interface with various spacecraft subsystemsRequirementsB.S. or M.S. in electrical or computer engineering, or equivalent technical degree A passion for hardware development, including working in a fast-paced environment and hands-on design and developmentDemonstrated ability to personally design, build, and test hardware from scratchStrong analog/mixed-signal circuit design skillsExperience with debugging circuits with embedded software, from oscilloscope to firmwareUS Citizenship or Green CardBonusExperience with Python programmingExperience with automated HW testingExperience with electromechanical elementsKnowledge of radiation effects on semiconductorsView our other jobs here https://jobs.lever.co/astranisApply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>3861560880</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Electrical Engineer - Power Electronics</job_title>
+    <job_slug>astraniselectrical-engineer-power-electronics2019-05-20</job_slug>
+    <job_description>Electrical Engineer - Power ElectronicsSan Francisco, CAEngineeringFull-timeApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online. And to pull it off we have to reinvent microwave radio systems in space using SDRs.Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with real hardware and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleLead the design of kW-level power systems for our satellitesManage and control key components such as solar panel arrays, power regulation and distribution, and high-density batteriesIntegrate these systems into the spacecraft by working closely with the rest of the teamRequirementsBachelor of Science degree in Electrical Engineering or equivalentA passion for hardware development, including working in a fast-paced environment and hands-on design and developmentExperience in designing, building, and testing analog and digital circuitsExperience with kW level power electronics and galvanic isolationExperience with photovoltaics and MPPTsExperience with Li-ion batteries and chargersExperience with PCB thermal considerationsExperience with magnetics in power electronicsMastery of electrical CADUS Citizenship or Green CardBonusExperience with designing for fault tolerance, especially to withstand a radiation environmentExperience with design, layout, and bring-up of large chips, including 1000 pin BGA MCUs and FPGAsExperience with power distribution networks for high frequency applicationsFamiliarity with embedded programmingElectromechanical design experienceEMI/EMC experienceApply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>2875414776</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Electrical Engineer - Radio Hardware</job_title>
+    <job_slug>astraniselectrical-engineer-radio-hardware2019-05-20</job_slug>
+    <job_description>Electrical Engineer - Radio HardwareSan Francisco, CAEngineeringFull-timeApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online. And to pull it off we have to reinvent microwave radio systems in space using SDRs.Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with real hardware and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleWork on the full suite of radio hardwareDesign and test ultra high speed digital data systemsWork with state of the art FPGAs and data convertersDesign and lay out PCBs to implement these systemsTest and validate full radio signal chainIntegrate these systems into the spacecraft by working closely with the rest of the teamRequirementsB.S. or M.S. in electrical or computer engineering, or equivalent technical degree A passion for hardware development, including working in a fast-paced environment and hands-on design and developmentDemonstrated ability to personally design, build, and test hardware from scratchExperience with Altium or similar EDA toolsExperience with high-density PCB designExperience designing high speed clock treesStrong analog/mixed-signal circuit design skillsComfortable working with full RF signal chainUS Citizenship or Green CardBonusFamiliarity with radio nonidealities (HD, IMD, IQ imbalance, gain ripple, group delay distortion)Familiarity with data converter nonidealities (INL, DNL, HD, quantization noise)Familiarity with high speed SERDES protocols (double bonus: JESD204B)Experience with RF test + measurement equipment Experience with high speed bench equipment (VNA, TDR, BERT, etc)Experience with MentorGraphics HyperLynx, Cadence Sigrity, Ansys HFSS or similar signal integrity toolsExperience modeling trace/interconnect loss and compensationApply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>2871064328</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Electrical Engineer - Senior Avionics Engineer</job_title>
+    <job_slug>astraniselectrical-engineer-senior-avionics-engineer2019-05-20</job_slug>
+    <job_description>Electrical Engineer - Senior Avionics EngineerSan Francisco, CAEngineeringFull-timeApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online. And to pull it off we have to reinvent microwave radio systems in space using SDRs.Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with real hardware and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleArchitect, design, and develop space tolerant electronics that will support the functions of our satellites.Ownership of spacecraft avionics systems.Work within a multidisciplinary team to design and execute for satellite avionics.Duties include program management, subsystem design, analysis, debugging, and hardware bug tracking.Support through production and test.RequirementsB.S. or higher in electrical or computer engineering, or similar technical degree 5+ years of professional experience with fast-paced product design cycles5+ years of board level experience designing hardware from concept through production.A passion for hardware development, including working in a fast-paced environment and hands-on design and developmentDemonstrated ability to design, build, and test hardware from scratchStrong analog/mixed-signal circuit design skillsUS Citizenship or Green CardBonus5+ years of experience with designing and implementing signal conditioning, sensors, electro-mechanical actuators, power switches, embedded computers, or such hardware.Experience with FPGAs, Microcontrollers, and communication schemes (RS-485, SPI, Ethernet, I2C)Experience leading a team of engineers and working with teams in other disciplines.  Strong understanding of computers and knowledge of C, C++, or PythonRadiation effects knowledgeEnvironmental test experienceApply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>2973238716</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Electrical Engineer - Signal Integrity</job_title>
+    <job_slug>astraniselectrical-engineer-signal-integrity2019-05-20</job_slug>
+    <job_description>Electrical Engineer - Signal IntegritySan Francisco, CAEngineeringFull-timeApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online. And to pull it off we have to reinvent microwave radio systems in space using SDRs.Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with real hardware and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleDesign and validate ultra high speed digital data systemsSelect PCB stackups and help with PDN designs for other systemsChoose electrical harnesses for use in harsh environmentsIntegrate these systems into the spacecraft by working closely with the rest of the teamRequirementsB.S. or M.S. in electrical or computer engineering, or equivalent technical degree A passion for hardware development, including working in a fast-paced environment and hands-on design and developmentExperience modeling trace/interconnect loss and compensationExperience designing for EMI/EMC Experience with MentorGraphics HyperLynx, Cadence Sigrity, Ansys HFSS or other signal integrity toolsExperience with Altium or similar EDA toolsExperience with high speed bench equipment [VNA, TDR, BERT, etc]US Citizenship or Green CardBonusExperience with high-density PCB layoutExperience with Xilinx FPGAsExperience with serial [SerDes] protocols Experience with PythonApply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>2347364610</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Engineering Ops: Systems Engineering</job_title>
+    <job_slug>astranisengineering-ops-systems-engineering2019-05-20</job_slug>
+    <job_description>Engineering Ops: Systems EngineeringSan Francisco, CAEngineeringFull-timeApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online. And to pull it off we have to reinvent microwave radio systems in space using SDRs.Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with real hardware and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleAcquire and maintain understanding of spacecraft design and all interfaces, internal and externalManage requirements, flowdowns, and verifications across many subsystems, including ground and space segmentsIdentify, reconcile, and head off conflicts across interdependent subsystem designs, teams, and interfacesTrack many different aspects of the system requirements, including verification and validation, flowdown, and non-compliancesDevise Failure Modes and Effects Criticality Analyses (FMECA)Promote best practices relating to system design, requirements elicitation, configuration control, human and system safety, testability, operability, reliability, and more.RequirementsB.S. or M.S. in aerospace, electrical, computer, or mechanical engineering, or equivalent technical degreeExperience with space system requirements managementExperience with configuration managementFluency with Jira or other issue tracking systemsExperience with system-level budgets (mass/power/pointing/etc.) and ability to highlight inconsistencies and optimizationsUnderstanding of space program milestonesExperience with solving interdisciplinary technical problemsTechnical expertise in at least one spacecraft design subsystem areaUS Citizenship or Green CardBonusExperience with Python programmingExperience with automated HW testingExperience with debugging circuits with embedded software, from oscilloscope to firmwareExperience with electromechanical systemsExperience designing electrical and/or mechanical test and assembly fixturingDirect experience in operating satellitesApply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>3491815392</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>FPGA Engineer</job_title>
+    <job_slug>astranisfpga-engineer2019-05-20</job_slug>
+    <job_description>FPGA EngineerSan Francisco, CAEngineeringFull-timeApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online. And to pull it off we have to reinvent microwave radio systems in space using SDRs.Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with real hardware and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleDesign RTL for high data rate, software defined radiosWork with multiple FPGAs and toolchainsInterface FPGAs with high speed data converters, memories, MCUsDesign, implement and test radiation mitigation schemes on FPGACollaborate closely with DSP/radio algorithm designerCollaborate closely with embedded firmware and software engineersRequirementsUS Citizenship or Green Card (This is a legal requirement; no exceptions)Bachelor of Science degree in electrical engineering, computer science, computer engineering, or equivalentA passion for hardware development, including working in a fast-paced environment and hands-on design and developmentExperience in designing, implementing, and testing high throughput systems implemented on FPGAsStrong proficiency with Verilog (preferably SystemVerilog) for both synthesis and verificationExperience with modern communication systems (RF, IF/IQ, time/freq domains, modulation)BonusMS or PhD in computer engineering or equivalentConsiderable expertise in at least 1 domain beyond just the logic design. This could be DSP/radio design, software, hi-rel design (e.g. fault analysis &amp; recover), etc.Experience with Xilinx FPGAs Experience with Vivado IDE, TCLFamiliarity with system level estimates and implications of power, thermal, and real estateExperience with high speed data converters (ADCs, DACs, JESD204B)Experience with circuit level debuggingExperience with digital communication theory and implementation, such as LDPC implementationsExperience with space-based systemsApply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>1720280674</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Guidance, Navigation, and Control Engineer</job_title>
+    <job_slug>astranisguidance-navigation-and-control-engineer2019-05-20</job_slug>
+    <job_description>Guidance, Navigation, and Control EngineerSan Francisco, CAEngineeringFull-timeApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online. And to pull it off we have to reinvent microwave radio systems in space using SDRs.Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with real hardware and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleWork with the Guidance, Navigation, and Control team to design, build, test, and operate satellite hardware and softwareSystem design including make/buy trades, component selection, system sizing, and pointing budgetsHardware development including managing internal component build, external vendors, and subassembly bring-up and testingSoftware development including simulation framework, environmental models, and flight algorithmsValidation and verification through software simulation, Monte Carlo analysis, and hardware in the loop testingIntegration and test supportConcept of operations development, mission planning, and flight operation supportRequirementsBachelor of Science degree in a technical discipline (e.g. engineering, CS, physics) with a focus on control systems, orbital mechanics, or similarDemonstrated experience in developing, implementing, and testing control systemsFamiliarity with processing sensor data and with sensor fusion techniques (e.g. extended Kalman filters) Demonstrated experience in developing 6-DOF simulationsA passion for hardware development, including working in a fast-paced environment and doing hands-on design/developmentDemonstrated ability to personally design, build, and test hardware and/or software from scratchUS Citizenship or Green CardBonusExperience implementing algorithms for embedded systems in C++ or similarExperience with NumPy, SciPyExperience with spacecraft control systemsExperience with low thrust trajectories Experience with geostationary spacecraft operations Experience with spacecraft propulsionExperience with hardware in the loop simulationApply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>2123494191</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>IT System Administrator</job_title>
+    <job_slug>astranisit-system-administrator2019-05-20</job_slug>
+    <job_description>IT System AdministratorSan Francisco, CAEngineeringFull-timeApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online.IT systems support everything we do at Astranis. We are a well-funded team that moves fast, and are looking for people who are scrappy, creative, ambitious, and who want to make an impact in the world. This role offers a huge amount of room to work collaboratively with engineers across a wide range of disciplines and to grow in scope as we scale up our satellite operations.We offer competitive salary, excellent healthcare, and lunch delivered to the office every day.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.The RoleInstall, configure, manage, and monitor networks, storage, and access - locally and in the cloudDefine corporate security policies and procedures, and aid in implementing themDevelop and implement a comprehensive data backup strategyDocument IT infrastructure, policies, and proceduresWrite scripts to automate routine tasksAdminister systems spanning multiple operating systems (Windows, MacOS, Linux)Collaborate with other team members to address IT challenges as they arise -- we are a tech-savvy team, and user support is expected to be minimalRequirementsStrong background in network engineering / IT administrationExcellent written and oral communication skillsExperience administering wired and wireless networks, VPNs, and cloud-based servicesExperience with high-level scripting languages like Bash, Python, or PowerShellUS Citizenship or Green CardBonus if you have experience with one or more of the followingAmazon Web ServicesDocker instancesNetwork monitoring and alerting toolsUbiquiti networking gearFlexNet/FlexLMAtlassian (Jira, Confluence)Writing internal self-service toolsApply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>178550826</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Mechanical Engineer</job_title>
+    <job_slug>astranismechanical-engineer2019-05-20</job_slug>
+    <job_description>Mechanical EngineerSan Francisco, CAEngineeringFull-timeApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online. And to pull it off we have to reinvent microwave radio systems in space using SDRs.Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with real hardware and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleDesign, analyze, procure, assemble, and test primary structure, bracketry, and mechanisms for Astranis spacecraft.  Components include composite and metallic parts and assemblies with a variety of manufacturing techniques.Develop requirements for components and systems including loads, interfaces, and functional requirements.Perform mechanical and thermal analysis for spacecraft systemsIntegrate parts and systems into the spacecraft by working closely with the rest of the team, and document and develop procedures to improve the build process in the future.RequirementsBachelor of Science degree in mechanical engineering or equivalentMastery of mechanical CADDemonstrated fundamentals with mechanical and thermal analytic abilities; FEA experience is not required, but preferredA passion for hardware development, including working in a fast-paced environment and hands-on design and developmentUS Citizenship or Green CardBonusExperience with mechanical and/or thermal FEAExperience with composite structuresExperience in designing in a vacuum environment with large temperature swingsExperience with vibration environmentsElectromechanical design experienceApply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>1901394981</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Propulsion Engineer</job_title>
+    <job_slug>astranispropulsion-engineer2019-05-20</job_slug>
+    <job_description>Propulsion EngineerSan Francisco, CAEngineeringFull-timeApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)We&#8217;re building small, low-cost telecommunications satellites. Our mission is to help bring the 4 billion people online who are without internet. And to pull it off we have to reinvent microwave radio systems in space using software-defined radios.Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with real hardware and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleDesign, build, test, and operate geostationary satellite monopropellant and electric propulsion systems System sizing Component selection Vendor managementAnalysis including plume impingement, water hammer, pressure drop, and thermalTest plan generationConcept of operation developmentRequirementsBachelor of Science degree in a technical discipline (e.g. engineering, physics)3+ years of industry experience with spacecraft propulsionDemonstrated experience in designing, implementing, testing, and operating spacecraft propulsion systemsA passion for hardware development, including working in a fast-paced environment and doing hands-on design/developmentUS Citizenship or Green CardBonusExperience with low thrust trajectories Experience with geostationary spacecraft operations Experience with small satellites Apply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>2190681927</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>RF Engineer</job_title>
+    <job_slug>astranisrf-engineer2019-05-20</job_slug>
+    <job_description>RF EngineerSan Francisco, CAEngineeringFull-timeApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online. And to pull it off we have to reinvent microwave radio systems in space using SDRs.Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with real hardware and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleDesign, simulate, implement, and measure passive/active RF sub-systems at microwave frequencies, including; LNAs, power amplifiers, up/down convertors, oscillators, antennas, etc. Integrate these systems into the spacecraft by working closely with the rest of the teamRequirementsPassion for hardware development, including working in a fast-paced environment and hands-on design and developmentDeep knowledge of basic RF concepts, such as transmission lines, impedance matching, and filter designHands-on experience in designing, building, and testing RF hardware for microwave frequenciesExperience with RF simulation toolsUS Citizenship or Green CardBonusMS or PhD in electrical engineering, physics, applied physics, or equivalentAntennas and Electromagnetics propagation knowledge and backgroundExperience with Software Defined Radios and associated skillsetExperience with PCB design, layout and simulationApply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>3515857305</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Software Engineer</job_title>
+    <job_slug>astranissoftware-engineer2019-05-20</job_slug>
+    <job_description>Software EngineerSan Francisco, CAEngineeringFull-timeApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online. And to pull it off we have to reinvent microwave radio systems in space using SDRs.Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with real hardware and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.The Role (one or more of)Implement spacecraft avionics softwareImplement ground control and telemetry softwareImplement software for automated testing at component, functional and system levels, including HITL (Hardware in the Loop) testingImplement low level software to interface with various spacecraft componentsImplement/troubleshoot/improve real time operating system componentsRequirementsBachelor of Science degree in CS, EE (or equivalent background knowledge)A passion for building things, including working in a fast-paced environment and hands-on design and developmentExperience with C and/or C++Experience with Python (or other high-level OO scripting language(s))Experience with Linux and shell command line toolsUS Citizenship or Green CardBonusExperience with designing real time systemsExperience with building bare-metal embedded system softwareExperience with reading schematics and datasheets, debugging circuits that interface with embedded software, from debugger to logic analyzer to oscilloscopeExperience with web development frameworks and databasesExperience with test framework development, especially with HITL (Hardware in the Loop) systemsOur software work spans many areas, from embedded work on small microcontrollers, to numerical algorithms running on flight computers, to telemetry processing, querying and display on ground systems.We are looking for talented software generalists - people who are excited and able to contribute to more than one area.Apply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>2351834848</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Spacecraft Systems Test Engineer</job_title>
+    <job_slug>astranisspacecraft-systems-test-engineer2019-05-20</job_slug>
+    <job_description>Spacecraft Systems Test EngineerSan Francisco, CAEngineeringFull-timeApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online. And to pull it off we have to reinvent microwave radio systems in space using SDRs.Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with real hardware and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleWork with design engineers to develop and execute test plans and procedures for spacecraft components at all levels of assembly, including fully-built, flight-ready spacecraftAnalyze and draw conclusions from test resultsTroubleshoot test failuresOperate test equipment, manage test facilities, and troubleshoot test failures and breakdownsDesign electrical and/or mechanical fixturing to support component testsRequirementsB.S. in electrical engineering, computer engineering, computer science, or equivalent technical degreeExperience developing spacecraft component and assembly test plans/proceduresExperience executing environmental tests on spacecraft and componentsExperience with test data acquisition, storage, processing, and presentationAbility to design and lay out printed circuit boards to support testingAbility to design and manufacture mechanical test fixtures and skill gathering requirements from design engineersComfort with adapting to and overcoming test failures, and capturing lessons learned from themExperience with an object oriented programming language (bonus for Python skill in test equipment interfaces or data analysis)US Citizenship or Green CardBonusStrong analog/mixed-signal circuit skillsKnowledge of radiation effects on semiconductorsExperience with automated bench testingExperience with electromechanical systemsExperience with testing in space environmentsApply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>1645938842</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Thermal Engineer</job_title>
+    <job_slug>astranisthermal-engineer2019-05-20</job_slug>
+    <job_description>Thermal EngineerSan Francisco, CAEngineeringFull-timeApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online. And to pull it off we have to reinvent microwave radio systems in space using SDRs.Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with real hardware and be ok with struggling to do things that seem impossibly hard.This posting is for applicants who are primarily interested in design, analysis, and development of thermal solutions for spacecraft, including the primary structures, thermal coatings, and electronics enclosures. However, we encourage everyone to broaden their skillsets and the nature of the small company work means that you'd be involved on a number of different projects.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleDevelop thermal loading, nominal and off-nominal analysis cases and component temperature limits for Astranis spacecraft in conjunction with the rest of the teamBuild complex submodels as necessary and simplified representations for the top level thermal modelDesign, analyze, procure and test thermal solutions such as strapping and heat pipes, both as samples and as part of primary structureDevelop processes and procedures for integration and assembly which ensure thermal design intent is metPlan and run thermal vacuum testing and verification for the spacecraftRequirementsBachelor of Science degree in engineeringExperience in thermal analysis and thermally-constrained design; computational thermal design experience (finite methods) is not required but highly preferredProficiency with mechanical CADA passion for hardware development, including working in a fast-paced environment and hands-on design and developmentUS Citizenship or Green CardBonusExperience with Thermal DesktopExperience with FEMAP/NastranExperience with composite structuresExperience in designing in a vacuum environment with large temperature swingsApply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>1860166775</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Intern - Communications/DSP Engineer [Fall 19, Spring 20]</job_title>
+    <job_slug>astranisintern-communicationsdsp-engineer-fall-19-spring-202019-05-20</job_slug>
+    <job_description>Intern - Communications/DSP Engineer [Fall 19, Spring 20]San Francisco, CAInternshipsInternApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online. And to pull it off we have to reinvent microwave radio systems in space using SDRs.Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with real hardware and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleWork with a small team of signal processing/communications engineers to develop and implement various radio functions (filtering, gain control, frequency tracking, digital upconversion/downconversion, linearization, timing and phase recovery, equalization, FEC, symbol mapping/demapping, framing, etc )Work closely with FPGA developers to implement, test and debug all radio functions on real hardwareRequirementsStrong fundamentals in "signals and systems" (basic transforms, aliasing, analysis in both continuous and discrete domains, interpolation, decimation, etc) Experience with digital communication theory and application (modulation, coding)Experience with testing and debugging radio hardware (signal generator, signal analyzer, network analyzer, oscilloscope)Strong RF fundamentals (amplifiers, antennas, analog filters, channel effects, distortions, etc)Strong software/firmware fundamentals (experience writing firmware for DSP/MCU/FPGA, scripting, simulation, etc)A passion for hardware development, including working in a fast-paced environment and hands-on design and developmentUS Citizenship or Green CardBonusExperience with software defined radiosExperience with PythonExperience with GNU RadioExperience with FPGA development (and/or embedded C)Experience with test planning, automation and executionApply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>1438772941</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Intern - Electrical Engineering (Fall 2019)</job_title>
+    <job_slug>astranisintern-electrical-engineering-fall-20192019-05-20</job_slug>
+    <job_description>Intern - Electrical Engineering (Fall 2019)San Francisco, CAInternshipsInternApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online. And to pull it off we have to reinvent microwave radio systems in space using SDRs.Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with real hardware and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleThis posting covers working with the payload, avionics, and power systems teams at AstranisWork on a hardware engineering team to build and test flight hardwareDesign stress test equipment to validate designs across a wide range of conditionsWrite code to help evaluate performance and automate testing of satellite hardwareRequirementsCurrently pursuing a B.S. or M.S. in electrical or computer engineering, or equivalent technical degree A passion for hardware development, including working in a fast-paced environment and hands-on design and developmentDemonstrated ability to personally design, build, and test hardware from scratchUS Citizenship or Green CardBonusExperience with Altium Designer (or other PCB design software)Experience with SPICE-based simulators (ADS, LTSpice, SIMPLIS)Experience with Python or MATLABExperience with C/C++Experience with RF bench equipment (VNAs, Spectrum Analyzers, Signal Generators)Apply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>589402943</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Intern - FPGA Engineer</job_title>
+    <job_slug>astranisintern-fpga-engineer2019-05-20</job_slug>
+    <job_description>Intern - FPGA EngineerSan Francisco, CAInternshipsInternApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online. And to pull it off we have to reinvent microwave radio systems in space using SDRs.Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with real hardware and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleDesign RTL for high data rate, software defined radiosWork with multiple FPGAs and toolchainsInterface FPGAs with high speed data converters, memories, MCUsDesign, implement and test radiation mitigation schemes on FPGACollaborate closely with DSP/radio algorithm designerCollaborate closely with embedded firmware and software engineersRequirementsUS Citizenship or Green Card (This is a legal requirement; no exceptions)Currently pursuing a B.S. or M.S. in electrical engineering, computer science, computer engineering, or equivalentA passion for hardware development, including working in a fast-paced environment and hands-on design and developmentExperience in designing, implementing, and testing high throughput systems implemented on FPGAsProficiency with Verilog/SystemVerilog for synthesisBonusExperience with UVM and advanced SystemVerilog verificationExperience with Xilinx FPGAs Experience with Vivado IDE, TCLFamiliarity with system level estimates and implications of power, thermal, and real estateExperience with high speed data converters (ADCs, DACs, JESD204B)Experience with circuit level debuggingExperience with digital communication theory and implementation, such as LDPC implementationsExperience with space-based systemsExperience with modern communication systems (RF, IF/IQ, time/freq domains, modulation)Experience  in at least 1 domain beyond logic design. This could be DSP/radio design, software, hi-rel design (e.g. fault analysis &amp; recover), etc.Please note that we are full for summer. Interns will only be considered for Fall / Spring.Apply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>128993954</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Intern - Guidance, Navigation, and Control (Fall 2019)</job_title>
+    <job_slug>astranisintern-guidance-navigation-and-control-fall-20192019-05-20</job_slug>
+    <job_description>Intern - Guidance, Navigation, and Control (Fall 2019)San Francisco, CAInternshipsInternApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online. And to pull it off we have to reinvent microwave radio systems in space using SDRs.Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with real hardware and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleWork with the Guidance, Navigation, and Control team to design, build, and test satellite hardware and softwareRequirementsCurrently pursuing a B.S. or M.S. in a technical discipline (e.g. engineering, CS, physics) with a focus on control systems, orbital mechanics, or spacecraft propulsionFamiliarity with classical control theoryExperience with python or C/C++Demonstrated ability to personally design, build, and test hardware and/or software from scratchUS Citizenship or Green CardBonusFamiliarity with spacecraft designExperience with low thrust trajectoriesApply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>506948861</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Intern - Mechanical Engineering (Spring &amp; Fall 2019)</job_title>
+    <job_slug>astranisintern-mechanical-engineering-spring-fall-20192019-05-20</job_slug>
+    <job_description>Intern - Mechanical Engineering (Spring &amp; Fall 2019)San Francisco, CAInternshipsInternApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Summer  and Winter/Spring 2019 slots have been filled at this time; we are only accepting or Fall/Winter 2019 applications.Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online. And to pull it off we have to reinvent microwave radio systems in space using SDRs.Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with real hardware and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleWork with the engineering team to design, build, and test satellite hardware and/or software.RequirementsCurrently pursuing a B.S. or M.S. in mechanical, aerospace, or equivalent technical degree (e.g. physics or applied math)A passion for hardware development, including working in a fast-paced environment and hands-on design and developmentDemonstrated ability to personally design, build, and test hardware from scratchUS Citizenship or Green CardBonusExperience with CADExperience with analytical software such as stress or thermal analysisExperience with electromechanical system design and specificationExperience with control system modeling and designApply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>1323473267</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Intern - RF Engineering</job_title>
+    <job_slug>astranisintern-rf-engineering2019-05-20</job_slug>
+    <job_description>Intern - RF EngineeringSan Francisco, CAInternshipsInternApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online. And to pull it off we have to reinvent microwave radio systems in space using SDRs.Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with real hardware and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleDesign, simulate, implement, and measure passive/active RF sub-systems at microwave frequencies, including; LNAs, power amplifiers, up/down convertors, oscillators, etc. Integrate these systems into the spacecraft by working closely with the rest of the teamRequirementsPassion for hardware development, including working in a fast-paced environment and hands-on design and developmentDeep knowledge of basic RF concepts, such as transmission lines, impedance matching, and filter designHands-on experience in designing, building, and testing RF hardware for microwave frequenciesExperience with RF simulation toolsUS Citizenship or Green CardBonusAntennas and Electromagnetics propagation knowledge and backgroundExperience with Software Defined RadiosExperience with high speed ADCs and DACsExperience with PCB designExperience with FPGA/DSP programmingApply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>1453924407</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Intern - Software Engineering</job_title>
+    <job_slug>astranisintern-software-engineering2019-05-20</job_slug>
+    <job_description>Intern - Software EngineeringSan Francisco, CAInternshipsInternApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED.(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)All Summer 2019 internship positions have been filled. We are currently accepting applications for Spring/Fall 2019 internships.Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online. And to pull it off we have to reinvent microwave radio systems in space using SDRs.Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with real hardware and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.The RoleWork with the engineering team to design, write and test software (embedded software running on satellites, as well as variety of ground control and testing software)RequirementsCurrently pursuing a B.S. or M.S. in Computer Science, Electrical or Computer Engineering, or equivalent technical degreeExperience with C/C++ and scripting language(s)Demonstrated ability to personally design, write, and test software from scratchUS Citizenship or Green CardBonusExperience with embedded systems running on bare metalExperience with real time operating systemsExperience with FPGA or DSP programmingNote: All Summer 2019 internship positions have been filled. We are currently accepting applications for Spring/Fall 2019 internships.Apply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>1788310327</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Director of HR</job_title>
+    <job_slug>astranisdirector-of-hr2019-05-20</job_slug>
+    <job_description>Director of HRSan Francisco, CAOperations and Business StrategyFull-timeApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)&#160;Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online. &#160;Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty and be ok with struggling to do things that seem impossibly hard.&#160;Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleManage the work flows, transactions, reporting, and record keeping aspects of our people function, including payroll, benefits, and compliance.Provide expertise and guidance on employment practices, legal compliance, company policies, etc.Ensure HR operational excellence with accurate, timely, and robust information, process, and project management practices.Champion and role model our culture, values, and mission, finding ways to continually strengthen them at the company overall.Scale professional development programs to help our employees build their skill sets, driving employee retention and satisfaction. Manage and expand our diversity and inclusion initiative.Manage the full lifecycle of an employee from developing new hire onboarding and offboarding processes.Requirements8+ years working in HR/People OperationsExperience working in fast paced, high growth, dynamic companiesExtremely organized and detail-oriented; you love bringing order out of chaosDeeply caring with strong interpersonal skills; helping others make you smileEnergized by finding opportunities to improve processes through technology and designKnowledgeable in CA and US HR-related policies and law, and fluent in HR systems, tools and applicationsEntrepreneurial drive; we are a small start-up that requires the ability to roll up your sleeves and jump inAbility to maintain confidentiality of sensitive informationUS Citizenship or Green CardApply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>1392712037</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Lab Manager</job_title>
+    <job_slug>astranislab-manager2019-05-20</job_slug>
+    <job_description>Lab ManagerSan Francisco, CAOperations and Business StrategyFull-timeApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online. And to pull it off we have to reinvent microwave radio systems in space using SDRs.Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with real hardware and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleLab organization and management, and workflow design (for R&amp;D and Production cleanroom)Creating and enforcing lab procedures and cleanliness/organization standardsLab equipment purchasing, management, maintenance, and rentalsInventory managementManufacturing operations and quality assuranceChampion inter-departmental, work instruction, bringup, and test processes and procedures while also driving efficiencies, quality compliance, and continuous improvementRequirementsB.S. or M.S. in engineering, or equivalent technical degreeStart-up mentality -- ability to work in both managerial and individual contributor roles (willingness to do whatever is needed)Develop and champion structured Product Development disciplines within the prototype/production manufacturing function, ensure the Change Management processes are well understood, and used, throughout the organizationChampion inter-departmental processes and procedures, driving efficiencies, quality compliance, and continuous improvementExperience with space or other high- reliability hardwareExperience with Thermal Vacuum, and Vibration, instrumentation and test processesA passion for hardware development, including working in a fast-paced environment and hands-on design and developmentDemonstrated ability to manage lab and/or production facility facilities, equipment, and operationsStrong organizational skills and attention to detailAbility to handle multiple tasks and prioritizeStrong communication skillsUS Citizenship or Green CardBonusExperience with Python programmingExperience with automated HW testingExperience with RF test and measurementExperience with high speed digital test and measurementExperience with metrologyView our other jobs here https://jobs.lever.co/astranisApply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>3006547832</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Operations Manager &#8212; People Operations</job_title>
+    <job_slug>astranisoperations-manager-people-operations2019-05-20</job_slug>
+    <job_description>Operations Manager &#8212; People OperationsSan Francisco, CAOperations and Business StrategyFull-timeApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)&#160;Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online.&#160;&#160;Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty and be ok with struggling to do things that seem impossibly hard.&#160;Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleManage the work flows, transactions, reporting, and record keeping aspects of our people function, including payroll, benefits, and compliance.Provide expertise and guidance on employment practices, legal compliance, company policies, etc.Ensure HR operational excellence with accurate, timely, and robust information, process, and project management practices.Champion and role model our culture, values, and mission, finding ways to continually strengthen them at the company overall.Scale professional development programs to help our employees build their skill sets, driving employee retention and satisfaction.&#160;Manage and expand our diversity and inclusion initiative.Manage the full lifecycle of an employee from developing new hire onboarding and offboarding processes.Requirements5+ years working in HR/People OperationsExperience working in fast paced, high growth, dynamic companiesExtremely organized and detail-oriented; you love bringing order out of chaosDeeply caring with strong interpersonal skills; helping others make you smileEnergized by finding opportunities to improve processes through technology and designKnowledgeable in CA and US HR-related policies and law, and fluent in HR systems, tools and applicationsEntrepreneurial drive; we are a small start-up that requires the ability to roll up your sleeves and jump inAbility to maintain confidentiality of sensitive informationUS Citizenship or Green CardApply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>3930272847</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Supply Chain and Procurement Manager</job_title>
+    <job_slug>astranissupply-chain-and-procurement-manager2019-05-20</job_slug>
+    <job_description>Supply Chain and Procurement ManagerSan Francisco, CAOperations and Business StrategyFull-timeApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online.&#160;Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleResponsible for the &#8220;life cycle&#8221; of component procurement, from the earliest stages of vendor selection all the way to when the component is being installed in the spacecraftDevelop and maintain strong supplier relationshipsVisit supplier&#8217;s facilities and accurately assess technical capability, equipment, and capacityWork with engineering teams on sourcing strategy, supplier roadmaps, market analysis and conducting design and cost trade-off analysis to ensure quality, pricing, and delivery standardsSource, negotiate, and purchase components across every satellite subsystem Place purchase orders for material requirement planning messages for production partsConsistently monitor and maintain necessary inventory levels to production demandsEstablish systems to minimize discrepancies and ensure accuracy and thoroughness throughout the procurement life cycleRequirementsBachelor's degree in engineering, business, supply chain, or a similar discipline3+ years of work experience in procurement, manufacturing, or related supply chain disciplinesIncredibly detail-oriented &#8212; the type of person who loves high-volume logistics and is hyper-organizedExperience with manufacturing of electronic and/or mechanical componentsExperience with enterprise resource planning and inventory / asset management systemsAbility to read technical drawings and datasheetsAbility to effectively communicate with engineering teamsExcellent negotiation, written and verbal skillsUS Citizenship or Green CardApply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  <job>
+      <id>3264800262</id>
+    <employer_id>2</employer_id>
+    <company_name>Astranis</company_name>
+    <company_url>www.astranis.com</company_url>
+    <company_email>test@astranis.com</company_email>
+    <job_title>Technical Recruiter</job_title>
+    <job_slug>astranistechnical-recruiter2019-05-20</job_slug>
+    <job_description>Technical RecruiterSan Francisco, CAOperations and Business StrategyFull-timeApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online.&#160;Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleRecruit top-tier engineering and business talent at a rapidly-growing company.Provide a great candidate experience throughout every step of the interview process.Screen applicants, coordinate onsite interviews, and conduct reference checks.Build strong pipelines and proactively source passive candidates.Manage and expand our diversity and inclusion initiative.Collect and analyze data on our recruiting funnel, and make recommendations about how to improve our processes.Requirements5+ years experience as a recruiter at a fast paced, high growth technology company &#8212; bonus if it's a hardware companyProven abilities to attract passive candidates and build a diverse pipelineAbility to distinguish between the top 50% and the top 5% of talent within their respective fieldsExcellent verbal and written communication skills, with an appropriate blend of professionalism and friendlinessCreative candidate sourcing techniques and data driven decision makingExceptional organizational skills and great follow-through on tasksUS Citizenship or Green CardApply for this job</job_description>
+    <job_country>840</job_country>
+    <job_state>CA</job_state>
+    <job_city>San Francisco</job_city>
+    <job_created_at>2019-05-20</job_created_at>
+    <job_expires_at>2019-05-23</job_expires_at>
+    <is_active>1</is_active>
+    <is_approved>0</is_approved>
+    <is_filled>0</is_filled>
+    <is_featured>0</is_featured>
+    </job>
+  </jobs>
+</wpjb>
