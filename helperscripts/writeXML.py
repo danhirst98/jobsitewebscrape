@@ -100,7 +100,7 @@ def writeXML(joblist):
     indent(xmlpretty)
     
     #TODO: See if we can remove this. It's not pretty and if we change the name of the base directory stuff starts going tits up
-    basefile = "JobSiteWebscrape"
+    basefile = "spacejobscrape"
     
     path=os.path.abspath(__file__)
     path = path.split(basefile)[0]+basefile+"/"

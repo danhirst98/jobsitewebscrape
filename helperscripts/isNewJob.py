@@ -15,7 +15,7 @@ def isNewJob(job):
     if type(job)!=Job:
         raise TypeError("isNewJob must have argument of type job")
     
-    basefile = "JobSiteWebscrape"
+    basefile = "spacejobscrape"
     path=os.path.abspath(__file__)
     path = path.split(basefile)[0]+basefile+"/"
     

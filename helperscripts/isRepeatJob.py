@@ -16,7 +16,7 @@ def isRepeatJob(job):
     if type(job)!=Job:
         raise TypeError("isRepeatJob must have argument of type job")
     
-    basefile = "JobSiteWebscrape"
+    basefile = "spacejobscrape"
     path=os.path.abspath(__file__)
     path = path.split(basefile)[0]+basefile+"/"
     
