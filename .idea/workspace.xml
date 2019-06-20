@@ -1,342 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ceff1550-6415-490f-aa50-5d25c3bf35b9" name="Default" comment="Restructures">
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/Old Scripts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/Old Scripts/writeXML.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-08-17-34-18-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-08-17-37-41-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-10-22-18-39-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-20-10-56-45-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-20-10-57-19-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-13-39-13-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-14_15_25-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-14_17_01-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-14_19_28-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-14_24_55-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-14_43_10-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-15_40_53-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-16.24.11-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-16_12_33-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-16_22_58-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-31-10.48.00-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-06-16-08.37.39-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-12-39-50-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-12-40-12-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-12-40-26-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-12-40-36-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-22-09-07-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-22-12-13-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-22-12-20-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-22-13-19-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-22-14-11-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-22-18-12-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-20-10-55-35-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-20-11-19-00-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-20-11-19-55-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-20-11-20-01-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-13-37-34-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-13-38-02-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-14_05_24-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-14_24_30-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-14_42_44-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-15_01_12-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-15_02_00-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-15_10_51-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-15_40_25-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-15_47_23-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-15_47_55-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-15_49_20-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-16_05_01-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-16_07_29-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-16_08_26-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-16_12_06-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-16_22_32-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-31-10.47.36-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-06-16-08.29.39-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-06-16-08.37.14-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/XPrize-2019-05-23-08.44.58-IMPORT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-04-30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-03.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-22-15-35.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-22-19-56.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-22-20-11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-22-20-24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-22-21-58.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-22-44-21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-22-44-44.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-01-06.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-01-12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-01-26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-01-57.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-13-58.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-14-27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-15-20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-16-18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-17-39.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-18-12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-18-35.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-20-52.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-21-10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-21-24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-21-42.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-23-05.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-24-05.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-24-12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-24-46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-25-00.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-45-23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-45-28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-50-59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-51-38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-51-54.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-52-38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-53-11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-53-34.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-54-13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-54-47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-55-04.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-55-24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-55-30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-55-41.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-56-06.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-56-12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-56-18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-56-22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-56-48.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-57-00.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-57-37.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-58-02.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-58-06.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-58-11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-58-22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-06-23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-06-36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-06-47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-07-20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-08-37.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-09-21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-09-54.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-10-07.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-10-10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-11-22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-13-00.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-13-11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-13-30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-13-47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-13-56.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-14-21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-15-53.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-16-06.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-19-35.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/xmlwritetest1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/XML/xmlwritetest2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/companyscripts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/helperscripts/UploadXML/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/helperscripts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/idlists/Astranis-idlist.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/idlists/SpaceX-idlist.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/idlists/XPrize-idlist.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/skillextract/bin/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/skillextract/bin/code_template.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/skillextract/bin/field_extraction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/skillextract/bin/lib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/skillextract/bin/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/skillextract/bin/pdf2text.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/skillextract/data/input/data_descriptions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/skillextract/data/input/example_resumes/Brendan_Herger_Resume.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/skillextract/data/input/example_resumes/Layla_Martin_Resume.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/skillextract/data/input/example_resumes/SGresume-1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/skillextract/data/input/example_resumes/john_smith.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/skillextract/data/input/example_resumes/resume_Meyer.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Old Scripts/writeXML.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirginOrbit.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WriteXMLTest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/Astranis-2019-05-08-17-34-18-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/Astranis-2019-05-08-17-37-41-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/Astranis-2019-05-10-22-18-39-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/Astranis-2019-05-20-10-56-45-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/Astranis-2019-05-20-10-57-19-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/Astranis-2019-05-21-13-39-13-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/Astranis-2019-05-21-14_15_25-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/Astranis-2019-05-21-14_17_01-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/Astranis-2019-05-21-14_19_28-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/Astranis-2019-05-21-14_24_55-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/Astranis-2019-05-21-14_43_10-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/Astranis-2019-05-21-15_40_53-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/Astranis-2019-05-21-16.24.11-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/Astranis-2019-05-21-16_12_33-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/Astranis-2019-05-21-16_22_58-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/Astranis-2019-05-31-10.48.00-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/Astranis-2019-06-16-08.37.39-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-10-12-39-50-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-10-12-40-12-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-10-12-40-26-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-10-12-40-36-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-10-22-09-07-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-10-22-12-13-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-10-22-12-20-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-10-22-13-19-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-10-22-14-11-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-10-22-18-12-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-20-10-55-35-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-20-11-19-00-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-20-11-19-55-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-20-11-20-01-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-21-13-37-34-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-21-13-38-02-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-21-14_05_24-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-21-14_24_30-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-21-14_42_44-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-21-15_01_12-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-21-15_02_00-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-21-15_10_51-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-21-15_40_25-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-21-15_47_23-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-21-15_47_55-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-21-15_49_20-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-21-16_05_01-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-21-16_07_29-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-21-16_08_26-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-21-16_12_06-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-21-16_22_32-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-05-31-10.47.36-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-06-16-08.29.39-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/SpaceX-2019-06-16-08.37.14-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/XPrize-2019-05-23-08.44.58-IMPORT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-04-30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-01.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-03.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-22-15-35.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-22-19-56.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-22-20-11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-22-20-24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-22-21-58.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-22-44-21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-22-44-44.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-01-06.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-01-12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-01-26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-01-57.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-13-58.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-14-27.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-15-20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-16-18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-17-39.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-18-12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-18-35.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-20-52.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-21-10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-21-24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-21-42.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-23-05.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-24-05.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-24-12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-24-46.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-25-00.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-45-23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-45-28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-50-59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-51-38.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-51-54.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-52-38.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-53-11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-53-34.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-54-13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-54-47.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-55-04.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-55-24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-55-30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-55-41.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-56-06.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-56-12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-56-18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-56-22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-56-48.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-57-00.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-57-37.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-58-02.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-58-06.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-58-11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-06-23-58-22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-07-00-06-23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-07-00-06-36.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-07-00-06-47.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-07-00-07-20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-07-00-08-37.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-07-00-09-21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-07-00-09-54.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-07-00-10-07.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-07-00-10-10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-07-00-11-22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-07-00-13-00.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-07-00-13-11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-07-00-13-30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-07-00-13-47.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-07-00-13-56.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-07-00-14-21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-07-00-15-53.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-07-00-16-06.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/jobxml-2019-05-07-00-19-35.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/xmlwritetest1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/xmlwritetest2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML_Upload_PHP_Run.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/companyscripts/Astranis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/companyscripts/BlueOrigin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/companyscripts/SpaceX.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/companyscripts/XPrize.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helperscripts/JobCategory.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helperscripts/JobClasses.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helperscripts/UploadXML/XML_Upload_PHP_BASE.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helperscripts/UploadXML/XML_Upload_PHP_Run.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helperscripts/UploadXML/uploadXML.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helperscripts/WorkdayScrape.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helperscripts/findLocation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helperscripts/indent.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helperscripts/isNewJob.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helperscripts/isRepeatJob.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helperscripts/util.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helperscripts/writeXML.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/idlists/Astranis-idlist.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/idlists/SpaceX-idlist.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/idlists/XPrize-idlist.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/bin/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/bin/code_template.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/bin/field_extraction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/bin/lib.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/bin/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/bin/pdf2text.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/changelog.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/confs/config.yaml.template" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/confs/config.yaml.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/data/input/data_descriptions.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/data/input/example_resumes/Brendan_Herger_Resume.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/data/input/example_resumes/Layla_Martin_Resume.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/data/input/example_resumes/SGresume-1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/data/input/example_resumes/john_smith.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/data/input/example_resumes/resume_Meyer.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/data/output/Brendan_Herger_Resume.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/data/output/Layla_Martin_Resume.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/data/output/SGresume-1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/data/output/john_smith.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/data/output/resume_Meyer.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/data/output/resume_summary.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/data/schema/extract.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/data/schema/transform.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillextract/requirements.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="ceff1550-6415-490f-aa50-5d25c3bf35b9" name="Default" comment="Further restructuring and working on making it run" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -358,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/indent.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -511,23 +176,6 @@
             <path>
               <item name="spacejobscrape" type="b2602c69:ProjectViewProjectNode" />
               <item name="JobSiteWebscrape" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spacejobscrape" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JobSiteWebscrape" type="462c0819:PsiDirectoryNode" />
-              <item name="spacejobscrape" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spacejobscrape" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JobSiteWebscrape" type="462c0819:PsiDirectoryNode" />
-              <item name="spacejobscrape" type="462c0819:PsiDirectoryNode" />
-              <item name="companyscripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spacejobscrape" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JobSiteWebscrape" type="462c0819:PsiDirectoryNode" />
-              <item name="spacejobscrape" type="462c0819:PsiDirectoryNode" />
-              <item name="helperscripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -695,7 +343,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561046810755</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Restructures">
+      <created>1561050556157</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561050556157</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Further restructuring and working on making it run">
+      <created>1561050806769</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561050806769</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -709,18 +371,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3279743" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3279743" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3290461" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Python Console" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -732,7 +395,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Restructures" />
-    <option name="LAST_COMMIT_MESSAGE" value="Restructures" />
+    <MESSAGE value="Further restructuring and working on making it run" />
+    <option name="LAST_COMMIT_MESSAGE" value="Further restructuring and working on making it run" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/writeXML.py" />
@@ -888,7 +552,7 @@
     <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/indent.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
