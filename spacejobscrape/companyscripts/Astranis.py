@@ -8,8 +8,8 @@ Created on Sat Feb  2 11:51:31 2019
 from bs4 import BeautifulSoup
 import requests
 import spacejobscrape.helperscripts.JobClasses as JC
-from spacejobscrape.helperscripts.writeXML import writeXML
-from spacejobscrape.helperscripts.findLocation import findLocations
+from spacejobscrape.helperscripts.writeXML import createjoblist
+
 
 #Sets the company for the script. Change each company
 company = JC.Company(2,"Astranis","www.astranis.com","test@astranis.com")
@@ -42,11 +42,9 @@ for job in alljobswebpage:
 
 print("There are %s jobs to scrape. Starting scrape..." % str(len(links)))
 
-#Converts each location from string into Location object using an API
-locations = findLocations(locations)
 
 #Visits each job page and scrapes further info
-jobs = []
+descriptions = []
 for i in range(len(links)):
     page_link = links[i]
     page_response = requests.get(page_link, timeout=10)
@@ -61,10 +59,7 @@ for i in range(len(links)):
     desc = page_content.find('div',{"class":"content"}).text
     #TODO: Identify tags and metas
 
-    #Creates new job object with all information
-    newJob = JC.Job(title,desc,company,location,[],[],3)
-    jobs.append(newJob)
+    descriptions.append(desc)
     print("Job %s scraped - %s" % (str(i+1),str(title)))
 
-print("Jobs scraped. Writing XML...")
-writeXML(jobs)
+createjoblist(titles,locations,descriptions,company)

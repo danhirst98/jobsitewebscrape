@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 import requests
 import spacejobscrape.helperscripts.JobClasses as JC
-from spacejobscrape.helperscripts.writeXML import writeXML
+from spacejobscrape.helperscripts.writeXML import createjoblist
 from spacejobscrape.helperscripts.findLocation import findLocations
 
 #Sets the company for the script. Change each company
@@ -48,11 +48,8 @@ for job in jobContainer:
 
 print("There are %s jobs to scrape. Starting scrape..." % str(len(links)))
 
-#Converts each location from string into Location object using an API
-locations = findLocations(locations)
-
 #Visits each job page and scrapes further info
-jobs = []
+descriptions = []
 for i in range(len(links)):
 
     page_link = links[i]
@@ -78,10 +75,9 @@ for i in range(len(links)):
 
     #TODO: Identify tags and metas
 
-    #Creates new job object with all information
-    newJob = JC.Job(title,desc,company,location,[],[],3)
-    jobs.append(newJob)
+    descriptions.append(desc)
     print("Job %s scraped - %s" % (str(i+1),str(title)))
 
-print("Jobs scraped. Writing XML...")
-writeXML(jobs)
+
+
+createjoblist(titles,locations,descriptions,company)

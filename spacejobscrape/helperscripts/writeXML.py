@@ -16,15 +16,15 @@ import os
 from spacejobscrape.helperscripts.indent import indent
 from spacejobscrape.helperscripts.findLocation import findLocations
 
-def createJobList(title,location,desc,company):
+
+def createjoblist(title,location,desc,company):
+
     location_refactored = findLocations(location)
     joblist = []
     for i in range(len(title)):
-        newJob = Job(title,desc,company,location_refactored,[],[],3)
+        newJob = Job(title[i],desc[i],company,location_refactored[i],[],[],3)
         joblist.append(newJob)
     writeXML(joblist)
-
-
 
 
 #TODO: Figure out how to make writejob and updatejob independent of an element. Will make the subsequent code more versatile
@@ -44,8 +44,9 @@ def writejob(element,job):
     ET.SubElement(jobel,'company_url').text = str(job.company.url)    
     ET.SubElement(jobel,'company_email').text = str(job.company.email)  
     ET.SubElement(jobel,'job_title').text = str(job.title)    
-    ET.SubElement(jobel,'job_slug').text = slug(str(job.company.name)+str(job.title)+str(job.startdate))    
-    ET.SubElement(jobel,'job_description').text = ET.CDATA(job.desc)   
+    ET.SubElement(jobel,'job_slug').text = slug(str(job.company.name)+str(job.title)+str(job.startdate))
+    #TODO: Add CDATA support
+    ET.SubElement(jobel,'job_description').text = str(job.desc)
     ET.SubElement(jobel,'job_country').text = str(job.location.country)    
     ET.SubElement(jobel,'job_state').text = str(job.location.state)    
     ET.SubElement(jobel,'job_city').text = str(job.location.city)  

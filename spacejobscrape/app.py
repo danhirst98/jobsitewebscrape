@@ -14,5 +14,6 @@ def run():
 
     companyfiles = glob.glob('./spacejobscrape/companyscripts/*.py')
     for f in companyfiles:
-        subprocess.call('python %s' % f)
-        exit(1)
+        print(f)
+        cmd = ['python', str(f)]
+        subprocess.call(cmd)
