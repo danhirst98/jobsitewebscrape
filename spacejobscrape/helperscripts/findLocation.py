@@ -58,9 +58,14 @@ def findLocations(loclist):
         loclist = list(loclist)
     locset = set(loclist)
     locdict = {}
+    starttime = time.time()
     for locstr in locset:
         loc = findLocation(locstr)
         locdict[locstr] = loc
+        endtime = time.time()
+        timediff = endtime-starttime
+        time.sleep(1-timediff)
+        starttime = endtime
     for i in range(len(loclist)):
         loclist[i] = locdict[loclist[i]]
     
