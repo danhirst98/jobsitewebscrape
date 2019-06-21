@@ -4,8 +4,6 @@ import subprocess
 
 def run():
 
-    #TODO: Iterate through jobs in company scripts, running each one
-    #TODO: Run XML upload
 
     # Deletes contents of recentXML, ready to create new one
     recentxmlfiles = glob.glob('./spacejobscrape/recentXML/*.xml')
@@ -17,3 +15,6 @@ def run():
         print(f)
         cmd = ['python', str(f)]
         subprocess.call(cmd)
+
+
+    #TODO: Run XML upload

@@ -37,7 +37,6 @@ def writejob(element,eid,cname,curl,cemail,jobtitle,jobdesc,jobcountry,jobstate,
     #Creates hash for id. If the hashinput is the same as a previous job on the site, it will overwrite. 
     
     #Can change the hash input if there are multiple jobs in the same place
-    #TODO: Open up set file, check to see if hash is in table. If hash is already in table, then return without creating job. Must also create a new hash table every day to provide a new table to compare against. 
     hashinput = str(jobtitle+cname+jobdesc+jobcity)
     id = int(hashlib.sha1(hashinput.encode("ascii")).hexdigest(),16)
     newhash = open("newidlist.txt","w+")
@@ -183,7 +182,6 @@ def writeXML(joblist,daysactive):
             
         writejob(jobs,eid,cname,curl,cemail,jobtitle,jobdesc,jobcountry,jobstate,jobcity,jobzip,jobdate,jobexp,active,approved,filled,feat,tags,metas)
         
-        #TODO: Remove after creating main() script and adding this function
         rename("./newidlist.txt","./idlist.txt")
         
         #Write XML file

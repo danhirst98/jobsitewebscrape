@@ -17,6 +17,7 @@ from spacejobscrape.helperscripts.indent import indent
 from spacejobscrape.helperscripts.findLocation import findLocations
 
 
+
 def createjoblist(title,location,desc,company):
 
     location_refactored = findLocations(location)
@@ -46,8 +47,8 @@ def writejob(element,job):
     ET.SubElement(jobel,'job_title').text = str(job.title)    
     ET.SubElement(jobel,'job_slug').text = slug(str(job.company.name)+str(job.title)+str(job.startdate))
     #TODO: Add CDATA support
-    ET.SubElement(jobel,'job_description').text = str(job.desc)
-    ET.SubElement(jobel,'job_country').text = str(job.location.country)    
+    ET.SubElement(jobel,'job_description').text = '<![CDATA['+str(job.desc)+']]>'
+    ET.SubElement(jobel,'job_country').text = str(job.location.country)
     ET.SubElement(jobel,'job_state').text = str(job.location.state)    
     ET.SubElement(jobel,'job_city').text = str(job.location.city)  
     ET.SubElement(jobel,'job_created_at').text = str(job.startdate)    
