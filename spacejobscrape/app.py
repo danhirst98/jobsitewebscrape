@@ -12,9 +12,10 @@ def run():
 
     companyfiles = glob.glob('./spacejobscrape/companyscripts/*.py')
     for f in companyfiles:
-        print(f)
-        cmd = ['python', str(f)]
-        subprocess.call(cmd)
+        if "Astranis" in f:
+            cmd = ['python', str(f)]
+            subprocess.call(cmd)
+            exit(2)
 
 
     #TODO: Run XML upload

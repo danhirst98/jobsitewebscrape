@@ -6,7 +6,6 @@ Created on Sun Feb  3 18:40:34 2019
 @author: DanHirst
 """
 
-import xml.etree.ElementTree as ET
 from slug import slug
 from datetime import datetime
 from spacejobscrape.helperscripts.JobClasses import Job
@@ -15,7 +14,7 @@ from spacejobscrape.helperscripts.isNewJob import isNewJob
 import os
 from spacejobscrape.helperscripts.indent import indent
 from spacejobscrape.helperscripts.findLocation import findLocations
-
+from lxml import etree as ET
 
 
 def createjoblist(title,location,desc,company):
@@ -25,7 +24,7 @@ def createjoblist(title,location,desc,company):
     for i in range(len(title)):
         newJob = Job(title[i],desc[i],company,location_refactored[i],[],[],3)
         joblist.append(newJob)
-    writeXML(joblist)
+    writeXML(joblist,True)
 
 
 #TODO: Figure out how to make writejob and updatejob independent of an element. Will make the subsequent code more versatile
@@ -47,7 +46,7 @@ def writejob(element,job):
     ET.SubElement(jobel,'job_title').text = str(job.title)    
     ET.SubElement(jobel,'job_slug').text = slug(str(job.company.name)+str(job.title)+str(job.startdate))
     #TODO: Add CDATA support
-    ET.SubElement(jobel,'job_description').text = '<![CDATA['+str(job.desc)+']]>'
+    ET.SubElement(jobel,'job_description').text = ET.CDATA(str(job.desc))
     ET.SubElement(jobel,'job_country').text = str(job.location.country)
     ET.SubElement(jobel,'job_state').text = str(job.location.state)    
     ET.SubElement(jobel,'job_city').text = str(job.location.city)  
@@ -76,7 +75,6 @@ def writejob(element,job):
             meta = ET.SubElement(metas,'meta')
             ET.SubElement(meta,'name').text = str(mt.name)
             ET.SubElement(meta,'value').text = str(mt.value)
-       
     return
  
 def updateJob(element,job):
@@ -89,53 +87,51 @@ def updateJob(element,job):
     return
 
 
-def writeXML(joblist):
+def writeXML(joblist, alljobs):
     #Initial job elements
     wpjb = ET.Element('wpjb')
     jobelement = ET.SubElement(wpjb,'jobs')
-    
+
+
     #allows 1 job to be made into XML by passing list
     if joblist is Job:
         joblist = [joblist]
-        
-    for job in joblist:
-        if isRepeatJob(job):
-            continue
-        elif not isNewJob(job):
-            updateJob(jobelement,job)
-        else:
+
+    if (alljobs==True):
+        for job in joblist:
             writejob(jobelement,job)
+    else:
+        for job in joblist:
+            if isRepeatJob(job):
+                continue
+            elif not isNewJob(job):
+                updateJob(jobelement,job)
+            else:
+                writejob(jobelement,job)
     
     #Write XML file
     today = datetime.today().strftime('%Y-%m-%d-%H.%M.%S')
     tree = ET.ElementTree(wpjb)
     root = tree.getroot()
-    xmlpretty = root
-    indent(xmlpretty)
-    
+
     #TODO: See if we can remove this. It's not pretty and if we change the name of the base directory stuff starts going tits up
-    basefile = "spacejobscrape"
-    
-    path=os.path.abspath(__file__)
-    path = path.split(basefile)[0]+basefile+"/"
-    
+
+
     #UNCOMMENT IF YOU WANT TO SEE XML - FOR DEBUGGING
-    #ET.dump(xmlpretty)
     newfilename = "%s-%s-IMPORT.xml" % (str(job.company.name),str(today))
-    file = open("%s/%s/%s" % (path,"XML",newfilename),"w")
-    file.write(ET.tostring(xmlpretty).decode())
+    file = open("./spacejobscrape/%s/%s" % ("XML",newfilename),"w")
+    file.write(ET.tostring(root).decode())
     
     #Adds the file to another folder that displays only the XMLs from the most recent run of __main__.py
-    file = open("%s/%s/%s" % (path,"recentXML",newfilename),"w")
-    file.write(ET.tostring(xmlpretty).decode())
+    file = open("./spacejobscrape/%s/%s" % ("recentXML",newfilename),"w")
+    file.write(ET.tostring(root).decode())
         
     print("Finished writing XML, saved to %s" % newfilename)
     
     companyset = set([job.company.name for job in joblist])
     for company in companyset:
-        os.rename("%s/%s-newidlist.txt" % (path,company),"%s/idlists/%s-idlist.txt" % (path,company))
+        os.rename("./spacejobscrape/%s-newidlist.txt" % (company),"./spacejobscrape//idlists/%s-idlist.txt" % (company))
 
-#TODO: Write function that adds all the jobs no matter if they are in the previous idlist
 
 
 
