@@ -54,9 +54,8 @@ for i in range(len(links)):
     
     location = locations[i]
     
-    #TODO: Add formatting for content. Currently it's just a big mass of text
-    #May be able to just leave it as is. Look at https://api.wpjobboard.net/snippets/wpjb-demo-data.xml
     desc = str(page_content.find('div',{"class":"content"}))
+
     #TODO: Identify tags and metas
 
     descriptions.append(desc)

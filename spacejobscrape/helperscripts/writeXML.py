@@ -27,15 +27,13 @@ def createjoblist(title,location,desc,company):
     writeXML(joblist,True)
 
 
-#TODO: Figure out how to make writejob and updatejob independent of an element. Will make the subsequent code more versatile
-
-def writejob(element,job):
+def writejob(job):
         
     if type(job)!=Job:
         raise TypeError("Argument job must be type Job")
         
     #Creation of job xml format
-    jobel = ET.SubElement(element,'job')
+    jobel = ET.Element('job')
     
     #add each subelement to the xml
     ET.SubElement(jobel,'id').text = str(job.id)
@@ -45,7 +43,6 @@ def writejob(element,job):
     ET.SubElement(jobel,'company_email').text = str(job.company.email)  
     ET.SubElement(jobel,'job_title').text = str(job.title)    
     ET.SubElement(jobel,'job_slug').text = slug(str(job.company.name)+str(job.title)+str(job.startdate))
-    #TODO: Add CDATA support
     ET.SubElement(jobel,'job_description').text = ET.CDATA(str(job.desc))
     ET.SubElement(jobel,'job_country').text = str(job.location.country)
     ET.SubElement(jobel,'job_state').text = str(job.location.state)    
@@ -75,16 +72,16 @@ def writejob(element,job):
             meta = ET.SubElement(metas,'meta')
             ET.SubElement(meta,'name').text = str(mt.name)
             ET.SubElement(meta,'value').text = str(mt.value)
-    return
+    return jobel
  
-def updateJob(element,job):
+def updateJob(job):
     job.approved = 1
-    jobel = ET.SubElement(element,'job')    
+    jobel = ET.Element(element,'job')
     ET.SubElement(jobel,'id').text = str(job.id)
     ET.SubElement(jobel,'job_expires_at').text = str(job.enddate)
     ET.SubElement(jobel,'is_active').text = str(job.active) 
     ET.SubElement(jobel,'is_approved').text = str(job.approved)    
-    return
+    return jobel
 
 
 def writeXML(joblist, alljobs):
@@ -99,23 +96,20 @@ def writeXML(joblist, alljobs):
 
     if (alljobs==True):
         for job in joblist:
-            writejob(jobelement,job)
+            wpjb.append(writejob(job))
     else:
         for job in joblist:
             if isRepeatJob(job):
                 continue
             elif not isNewJob(job):
-                updateJob(jobelement,job)
+                wpjb.append(updateJob(job))
             else:
-                writejob(jobelement,job)
+                wpjb.append(writejob(job))
     
     #Write XML file
     today = datetime.today().strftime('%Y-%m-%d-%H.%M.%S')
     tree = ET.ElementTree(wpjb)
     root = tree.getroot()
-
-    #TODO: See if we can remove this. It's not pretty and if we change the name of the base directory stuff starts going tits up
-
 
     #UNCOMMENT IF YOU WANT TO SEE XML - FOR DEBUGGING
     newfilename = "%s-%s-IMPORT.xml" % (str(job.company.name),str(today))

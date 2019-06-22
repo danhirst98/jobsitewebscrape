@@ -1,8 +1,8 @@
 import os
 import glob
 import subprocess
-
-def run():
+from spacejobscrape.helperscripts.UploadXML.uploadXML import uploadXML
+def run(upload):
 
 
     # Deletes contents of recentXML, ready to create new one
@@ -17,5 +17,5 @@ def run():
             subprocess.call(cmd)
             exit(2)
 
-
-    #TODO: Run XML upload
+    if upload:
+        uploadXML()

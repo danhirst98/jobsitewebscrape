@@ -8,6 +8,6 @@ Created on Tue Apr 30 14:15:17 2019
 from spacejobscrape import app
 
 if __name__=='__main__':
-    app.run()
+    app.run(False)
 
 

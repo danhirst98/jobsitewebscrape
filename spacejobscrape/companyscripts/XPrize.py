@@ -68,7 +68,7 @@ for i in range(len(links)):
 
     location = locations[i]
 
-    #TODO: Add formatting for content. Currently it's just a big mass of text
+
     descContent = page_content.find("div", attrs={"id":"content"})
     descContainer = descContent.findAll("p")
     desc = descContainer[3].text + " " + descContainer[4].text
