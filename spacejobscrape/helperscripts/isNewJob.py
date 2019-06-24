@@ -8,19 +8,22 @@ Created on Mon May  6 23:07:32 2019
 from numpy import loadtxt
 from spacejobscrape.helperscripts.JobClasses import Job
 from pathlib import Path
-import os
 
     
 def isNewJob(job):
+    """
+    Checks whether job was in the previous run of the webscrape script
+    :param job: Job object
+    :return: whether job was scraped when the script ran the last time (boolean)
+    """
+
     if type(job)!=Job:
         raise TypeError("isNewJob must have argument of type job")
+
     
-    basefile = "spacejobscrape"
-    path=os.path.abspath(__file__)
-    path = path.split(basefile)[0]+basefile+"/"
-    
-    idlistname = path+"idlists/%s-idlist.txt" % str(job.company.name)
-    
+    idlistname = "./spacejobscrape/idlists/%s-idlist.txt" % str(job.company.name)
+
+
     config = Path(idlistname)
     #If file does not exists, make file and add first id
     if not config.is_file():

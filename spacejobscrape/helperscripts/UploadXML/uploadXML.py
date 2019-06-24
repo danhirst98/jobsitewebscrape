@@ -2,10 +2,15 @@ import subprocess
 import os
 
 def uploadXML():
+    """
+    Uploads XML to WPJobBoard database
+
+    :return: void
+    """
 
     #Finding path for the php file and the recent xml files
-    php_path = os.path.abspath("companyscripts/helperscripts/XML_Upload/XML_Upload_PHP_BASE.php")
-    xml_path = os.path.abspath("recentXML") + "/"
+    php_path = ".spacejobscrape/helperscripts/UploadXML/XML_Upload_PHP_BASE.php"
+    xml_path = "./spacejobscrape/recentXML/"
 
     #Opens the recentXML folder and gets all of the xml in the form of a string
     with os.scandir(xml_path) as entries:

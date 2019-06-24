@@ -9,7 +9,7 @@ Created on Sun Feb  3 18:40:34 2019
 from slug import slug
 from datetime import datetime
 from spacejobscrape.helperscripts.JobClasses import Job
-from spacejobscrape.helperscripts.isRepeatJob import isRepeatJob
+from spacejobscrape.helperscripts.isRepeatJob import isRepeatJob,addJobToIDList
 from spacejobscrape.helperscripts.isNewJob import isNewJob
 import os
 from spacejobscrape.helperscripts.indent import indent
@@ -18,17 +18,31 @@ from lxml import etree as ET
 
 
 def createjoblist(title,location,desc,company):
+    """
+    Converts lists of raw data into job objects for XML creation.
 
+    :param title: list of job titles (list of strings)
+    :param location: list of locations (list of strings)
+    :param desc: list of job descriptions (with HTML formatting) (list of strings)
+    :param company: list of companies (list of Company objects)
+    :return: void
+    """
     location_refactored = findLocations(location)
     joblist = []
     for i in range(len(title)):
         newJob = Job(title[i],desc[i],company,location_refactored[i],[],[],3)
         joblist.append(newJob)
     writeXML(joblist,True)
+    return
 
 
 def writejob(job):
-        
+    """
+    Converts job object into XML for upload into WPJobBoard
+
+    :param job: job object
+    :return: Job formatted as XML (lxml.etree.Element object)
+    """
     if type(job)!=Job:
         raise TypeError("Argument job must be type Job")
         
@@ -50,8 +64,7 @@ def writejob(job):
     ET.SubElement(jobel,'job_created_at').text = str(job.startdate)    
     ET.SubElement(jobel,'job_expires_at').text = str(job.enddate)
     ET.SubElement(jobel,'is_active').text = str(job.active) 
-    job.approved = 0
-    ET.SubElement(jobel,'is_approved').text = str(job.approved)    
+    ET.SubElement(jobel,'is_approved').text = str(job.approved)
     ET.SubElement(jobel,'is_filled').text = str(job.filled)    
     ET.SubElement(jobel,'is_featured').text = str(job.feat)   
     
@@ -75,8 +88,14 @@ def writejob(job):
     return jobel
  
 def updateJob(job):
+    """
+    Adds only barebones information to keep the job active and approved for job.daysactive days
+
+    :param job: Job object
+    :return: Job formatted as XML (lxml.etree.Element object)
+    """
     job.approved = 1
-    jobel = ET.Element(element,'job')
+    jobel = ET.Element('job')
     ET.SubElement(jobel,'id').text = str(job.id)
     ET.SubElement(jobel,'job_expires_at').text = str(job.enddate)
     ET.SubElement(jobel,'is_active').text = str(job.active) 
@@ -85,6 +104,13 @@ def updateJob(job):
 
 
 def writeXML(joblist, alljobs):
+    """
+    Iterates through jobs to create a single XML file with all job information for WPJobBoard upload
+
+    :param joblist: list of Jobs for conversion (list of Job objects)
+    :param alljobs: whether we should update jobs (False) or treat them all as new jobs (True) (boolean)
+    :return: void
+    """
     #Initial job elements
     wpjb = ET.Element('wpjb')
     jobelement = ET.SubElement(wpjb,'jobs')
@@ -97,6 +123,7 @@ def writeXML(joblist, alljobs):
     if (alljobs==True):
         for job in joblist:
             wpjb.append(writejob(job))
+            addJobToIDList(job)
     else:
         for job in joblist:
             if isRepeatJob(job):
@@ -111,7 +138,6 @@ def writeXML(joblist, alljobs):
     tree = ET.ElementTree(wpjb)
     root = tree.getroot()
 
-    #UNCOMMENT IF YOU WANT TO SEE XML - FOR DEBUGGING
     newfilename = "%s-%s-IMPORT.xml" % (str(job.company.name),str(today))
     file = open("./spacejobscrape/%s/%s" % ("XML",newfilename),"w")
     file.write(ET.tostring(root).decode())
@@ -121,10 +147,12 @@ def writeXML(joblist, alljobs):
     file.write(ET.tostring(root).decode())
         
     print("Finished writing XML, saved to %s" % newfilename)
-    
-    companyset = set([job.company.name for job in joblist])
-    for company in companyset:
-        os.rename("./spacejobscrape/%s-newidlist.txt" % (company),"./spacejobscrape//idlists/%s-idlist.txt" % (company))
+    if not alljobs:
+        companyset = set([job.company.name for job in joblist])
+        for company in companyset:
+            os.rename("./spacejobscrape/%s-newidlist.txt" % (company),"./spacejobscrape/idlists/%s-idlist.txt" % (company))
+
+    return
 
 
 

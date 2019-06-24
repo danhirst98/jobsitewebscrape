@@ -9,26 +9,43 @@ Created on Mon May  6 23:03:52 2019
 from numpy import loadtxt
 from pathlib import Path
 from spacejobscrape.helperscripts.JobClasses import Job
-import os
+
+def addJobToIDList(job):
+    """
+    Adds the job to the newidlist file
+
+    :param job: Job object
+    :return: void
+    """
+
+    newidlistname = "./spacejobscrape/%s-newidlist.txt" % str(job.company.name)
+
+    open(newidlistname, "a+").write("%s\n" % str(job.id))
 
 
 def isRepeatJob(job):
+    """
+    Check to see if the job has been already been imported during this run of the webscrape. If not, append id to the end of the newidlist for replacement at the end of the scrape
+
+    :param job: Job object
+    :return: whether job has already been scraped in this instance of the scrape (boolean)
+    """
     if type(job)!=Job:
         raise TypeError("isRepeatJob must have argument of type job")
+
     
-    basefile = "spacejobscrape"
-    path=os.path.abspath(__file__)
-    path = path.split(basefile)[0]+basefile+"/"
-    
-    newidlistname = path+"%s-newidlist.txt" % str(job.company.name)
+    newidlistname = "./spacejobscrape/%s-newidlist.txt" % str(job.company.name)
     config = Path(newidlistname)
     #If file does not exists, make file and add first id
+    print(config.is_file())
     if not config.is_file():
-        open(newidlistname,"a+").write("%s\n" % str(job.id))
+        addJobToIDList(job)
         return False
+
     idlist = loadtxt(newidlistname,dtype=str)
     if str(job.id) in idlist:
         return True
     else:
-        open(newidlistname,"a+").write("%s\n" % str(job.id))
+        #Adds id to the bottom of the newidlist file
+        addJobToIDList(job)
         return False
