@@ -1,0 +1,2 @@
+def getTags():
+    return []

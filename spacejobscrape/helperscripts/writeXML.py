@@ -17,7 +17,7 @@ from spacejobscrape.helperscripts.findLocation import findLocations
 from lxml import etree as ET
 
 
-def createjoblist(title,location,desc,company):
+def createjoblist(title,location,desc,company,tags=[],metas=[]):
     """
     Converts lists of raw data into job objects for XML creation.
 
@@ -25,12 +25,14 @@ def createjoblist(title,location,desc,company):
     :param location: list of locations (list of strings)
     :param desc: list of job descriptions (with HTML formatting) (list of strings)
     :param company: list of companies (list of Company objects)
+    :param tags: list of Tags such as job type and category (list of Tag Objects)
+    :param metas: list of Meta objects
     :return: void
     """
     location_refactored = findLocations(location)
     joblist = []
     for i in range(len(title)):
-        newJob = Job(title[i],desc[i],company,location_refactored[i],[],[],3)
+        newJob = Job(title[i],desc[i],company,location_refactored[i],tags,metas,3)
         joblist.append(newJob)
     writeXML(joblist,True)
     return

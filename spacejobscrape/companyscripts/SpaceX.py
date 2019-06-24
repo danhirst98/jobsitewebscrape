@@ -10,6 +10,8 @@ import requests
 
 from spacejobscrape.helperscripts.JobClasses import Company
 from spacejobscrape.helperscripts.writeXML import createjoblist
+from spacejobscrape.helperscripts.tags import getTags
+from spacejobscrape.helperscripts.metas import getMetas
 
 def runScrape(timeout=10):
     #Sets the company for the script. Change each company
@@ -44,16 +46,19 @@ def runScrape(timeout=10):
     descriptions = []
     for i in range(len(links)):
         page_link = links[i]
-        page_response = requests.get(page_link, timeout=5)
+        page_response = requests.get(page_link, timeout=timeout)
         page_content = BeautifulSoup(page_response.content, "html.parser")
 
         title = str(titles[i])
+
+        tags = getTags()
+        metas = getMetas()
 
         desc = str(page_content.find('div',{"id":"content"}))
         descriptions.append(desc)
         print("Job %s scraped - %s" % (str(i+1),str(title)))
 
-    createjoblist(titles,locations,descriptions,company)
+    createjoblist(titles,locations,descriptions,company,tags,metas)
 
 if __name__=="__main__":
     runScrape(10)
