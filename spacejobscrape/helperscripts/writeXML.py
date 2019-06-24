@@ -149,10 +149,9 @@ def writeXML(joblist, alljobs):
     file.write(ET.tostring(root).decode())
         
     print("Finished writing XML, saved to %s" % newfilename)
-    if not alljobs:
-        companyset = set([job.company.name for job in joblist])
-        for company in companyset:
-            os.rename("./spacejobscrape/%s-newidlist.txt" % (company),"./spacejobscrape/idlists/%s-idlist.txt" % (company))
+    companyset = set([job.company.name for job in joblist])
+    for company in companyset:
+        os.rename("./spacejobscrape/%s-newidlist.txt" % (company),"./spacejobscrape/idlists/%s-idlist.txt" % (company))
 
     return
 
