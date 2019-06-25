@@ -1,23 +1,56 @@
 <wpjb>
-  <jobs>
-    <job>
-      <id>2934225592</id>
-    <employer_id>2</employer_id>
-    <company_name>Astranis</company_name>
-    <company_url>www.astranis.com</company_url>
-    <company_email>test@astranis.com</company_email>
-    <job_title>Communications/DSP Engineer</job_title>
-    <job_slug>astraniscommunicationsdsp-engineer2019-05-08</job_slug>
-    <job_description>Communications/DSP EngineerSan Francisco, CAEngineeringFull-timeApply for this jobUS CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to make exceptions.)Four billion people do not have access to the internet. Astranis is going to change that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring the world online. And to pull it off we have to reinvent microwave radio systems in space using SDRs.Work with incredibly smart people who have flown things in space before. We are a well-funded team that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with real hardware and be ok with struggling to do things that seem impossibly hard.Our mission and our products are meant to connect the whole world and everyone in it, regardless of race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come join our team and bring their unique perspective to help make us stronger.RoleWork with a small team of signal processing/communications engineers to develop and implement various radio functions (filtering, gain control, frequency tracking, digital upconversion/downconversion, linearization, timing and phase recovery, equalization, FEC, symbol mapping/demapping, framing, etc )Develop and maintain an end-to-end simulation of the entire radio system in Python Work closely with FPGA developers to implement, test and debug all signal processing modulesDesign spectrum diagnostics tool to support monitoring and debugging of the radio on orbitRequirementsBachelor of Science degree in electrical engineering or equivalentStrong fundamentals in "signals and systems" (basic transforms, aliasing, analysis in both continuous and discrete domains, interpolation, decimation, etc) Experience with digital communication theory, simulation, implementation and debugging (modulation, coding)Experience with testing and debugging radio hardware (signal generator, signal analyzer, network analyzer, oscilloscope)Strong RF fundamentals (amplifiers, antennas, analog filters, gain and delay variation, reflections, compression, etc)Strong software/firmware fundamentals (experience writing firmware for DSP/MCU/FPGA, scripting, developing simulations, etc)A passion for hardware development, including working in a fast-paced environment and hands-on design and developmentUS Citizenship or Green CardBonusMS or PhD in a signal processing field (digital communications, image processing, audio processing, ML/AI, etc)3 years experience working on software defined radios or modem ASICsExperience with PythonExperience with GNU RadioExperience with radio test planning, automation and executionExperience with multi-rate signal processing techniques (polyphase filter banks, resampling techniques)Experience with RTL development (and/or embedded C)Experience with fixed point implementation (managing precision, quantization noise, underflow, overflow, unit testing, etc)Experience with PA linearizationExperience with multi-antenna systems (beamforming, MIMO)Experience with DVB-S2/x, DVB-RCS2 standardsExperience with Satellite radio systems (ground segment and/or space segment)Apply for this job</job_description>
-    <job_country>124</job_country>
-    <job_state>QC</job_state>
-    <job_city>Gatineau</job_city>
-    <job_created_at>2019-05-08</job_created_at>
-    <job_expires_at>2019-05-11</job_expires_at>
-    <is_active>1</is_active>
-    <is_approved>0</is_approved>
-    <is_filled>0</is_filled>
-    <is_featured>0</is_featured>
-    </job>
-  </jobs>
+    <jobs>
+        <job>
+            <id>2934225592</id>
+            <employer_id>2</employer_id>
+            <company_name>Astranis</company_name>
+            <company_url>www.astranis.com</company_url>
+            <company_email>test@astranis.com</company_email>
+            <job_title>Communications/DSP Engineer</job_title>
+            <job_slug>astraniscommunicationsdsp-engineer2019-05-08</job_slug>
+            <job_description>Communications/DSP EngineerSan Francisco, CAEngineeringFull-timeApply for this jobUS
+                CITIZENSHIP OR GREEN CARD REQUIRED(Note: this is due to US export regulations. Sorry, we are unable to
+                make exceptions.)Four billion people do not have access to the internet. Astranis is going to change
+                that. We are building the next generation of smaller, lower-cost telecommunications satellites to bring
+                the world online. And to pull it off we have to reinvent microwave radio systems in space using
+                SDRs.Work with incredibly smart people who have flown things in space before. We are a well-funded team
+                that moves fast. No prior space experience needed, you just need to enjoy getting your hands dirty with
+                real hardware and be ok with struggling to do things that seem impossibly hard.Our mission and our
+                products are meant to connect the whole world and everyone in it, regardless of race, creed, or any
+                other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to come
+                join our team and bring their unique perspective to help make us stronger.RoleWork with a small team of
+                signal processing/communications engineers to develop and implement various radio functions (filtering,
+                gain control, frequency tracking, digital upconversion/downconversion, linearization, timing and phase
+                recovery, equalization, FEC, symbol mapping/demapping, framing, etc )Develop and maintain an end-to-end
+                simulation of the entire radio system in Python Work closely with FPGA developers to implement, test and
+                debug all signal processing modulesDesign spectrum diagnostics tool to support monitoring and debugging
+                of the radio on orbitRequirementsBachelor of Science degree in electrical engineering or
+                equivalentStrong fundamentals in "signals and systems" (basic transforms, aliasing, analysis in both
+                continuous and discrete domains, interpolation, decimation, etc) Experience with digital communication
+                theory, simulation, implementation and debugging (modulation, coding)Experience with testing and
+                debugging radio hardware (signal generator, signal analyzer, network analyzer, oscilloscope)Strong RF
+                fundamentals (amplifiers, antennas, analog filters, gain and delay variation, reflections, compression,
+                etc)Strong software/firmware fundamentals (experience writing firmware for DSP/MCU/FPGA, scripting,
+                developing simulations, etc)A passion for hardware development, including working in a fast-paced
+                environment and hands-on design and developmentUS Citizenship or Green CardBonusMS or PhD in a signal
+                processing field (digital communications, image processing, audio processing, ML/AI, etc)3 years
+                experience working on software defined radios or modem ASICsExperience with PythonExperience with GNU
+                RadioExperience with radio test planning, automation and executionExperience with multi-rate signal
+                processing techniques (polyphase filter banks, resampling techniques)Experience with RTL development
+                (and/or embedded C)Experience with fixed point implementation (managing precision, quantization noise,
+                underflow, overflow, unit testing, etc)Experience with PA linearizationExperience with multi-antenna
+                systems (beamforming, MIMO)Experience with DVB-S2/x, DVB-RCS2 standardsExperience with Satellite radio
+                systems (ground segment and/or space segment)Apply for this job
+            </job_description>
+            <job_country>124</job_country>
+            <job_state>QC</job_state>
+            <job_city>Gatineau</job_city>
+            <job_created_at>2019-05-08</job_created_at>
+            <job_expires_at>2019-05-11</job_expires_at>
+            <is_active>1</is_active>
+            <is_approved>0</is_approved>
+            <is_filled>0</is_filled>
+            <is_featured>0</is_featured>
+        </job>
+    </jobs>
 </wpjb>

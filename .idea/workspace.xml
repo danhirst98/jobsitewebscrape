@@ -1,16 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ceff1550-6415-490f-aa50-5d25c3bf35b9" name="Default" comment="Added error Logger">
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/helperscripts/metas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/helperscripts/tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacejobscrape/script-templates/companyScrapeTemplate.py" afterDir="false" />
+    <list default="true" id="ceff1550-6415-490f-aa50-5d25c3bf35b9" name="Default" comment="Improved timing of findLocations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/Old Scripts/writeXML.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/Old Scripts/writeXML.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-08-17-34-18-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-08-17-34-18-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-08-17-37-41-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-08-17-37-41-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-10-22-18-39-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-10-22-18-39-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-20-10-56-45-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-20-10-56-45-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-20-10-57-19-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-20-10-57-19-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-13-39-13-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-13-39-13-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-14_15_25-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-14_15_25-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-14_17_01-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-14_17_01-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-14_19_28-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-14_19_28-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-14_24_55-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-14_24_55-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-14_43_10-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-14_43_10-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-15_40_53-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-15_40_53-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-16.24.11-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-16.24.11-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-16_12_33-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-16_12_33-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-16_22_58-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-21-16_22_58-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-31-10.48.00-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-05-31-10.48.00-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-06-16-08.37.39-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-06-16-08.37.39-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-06-20-18.07.24-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/Astranis-2019-06-20-18.07.24-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-12-39-50-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-12-39-50-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-12-40-12-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-12-40-12-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-12-40-26-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-12-40-26-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-12-40-36-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-12-40-36-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-22-09-07-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-22-09-07-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-22-12-13-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-22-12-13-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-22-12-20-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-22-12-20-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-22-13-19-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-22-13-19-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-22-14-11-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-22-14-11-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-22-18-12-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-10-22-18-12-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-20-10-55-35-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-20-10-55-35-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-20-11-19-00-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-20-11-19-00-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-20-11-19-55-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-20-11-19-55-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-20-11-20-01-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-20-11-20-01-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-13-37-34-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-13-37-34-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-13-38-02-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-13-38-02-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-14_05_24-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-14_05_24-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-14_24_30-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-14_24_30-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-14_42_44-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-14_42_44-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-15_01_12-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-15_01_12-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-15_02_00-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-15_02_00-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-15_10_51-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-15_10_51-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-15_40_25-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-15_40_25-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-15_47_23-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-15_47_23-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-15_49_20-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-15_49_20-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-16_05_01-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-16_05_01-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-16_07_29-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-16_07_29-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-16_08_26-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-16_08_26-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-16_12_06-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-16_12_06-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-16_22_32-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-21-16_22_32-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-31-10.47.36-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-05-31-10.47.36-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-06-16-08.29.39-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-06-16-08.29.39-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-06-16-08.37.14-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/SpaceX-2019-06-16-08.37.14-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/XPrize-2019-05-23-08.44.58-IMPORT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/XPrize-2019-05-23-08.44.58-IMPORT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-04-30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-04-30.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-03.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-03.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-22-15-35.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-22-15-35.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-22-19-56.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-22-19-56.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-22-20-11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-22-20-11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-22-20-24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-22-20-24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-22-21-58.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-22-21-58.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-22-44-21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-22-44-21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-22-44-44.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-22-44-44.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-01-06.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-01-06.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-01-12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-01-12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-01-26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-01-26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-01-57.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-01-57.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-13-58.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-13-58.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-14-27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-14-27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-15-20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-15-20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-16-18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-16-18.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-17-39.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-17-39.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-18-12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-18-12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-18-35.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-18-35.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-20-52.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-20-52.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-21-10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-21-10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-21-24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-21-24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-21-42.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-21-42.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-23-05.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-23-05.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-24-05.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-24-05.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-24-12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-24-12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-24-46.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-24-46.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-25-00.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-25-00.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-45-23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-45-23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-45-28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-45-28.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-50-59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-50-59.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-51-38.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-51-38.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-51-54.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-51-54.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-52-38.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-52-38.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-53-11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-53-11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-53-34.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-53-34.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-54-13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-54-13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-54-47.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-54-47.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-55-04.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-55-04.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-55-24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-55-24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-55-30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-55-30.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-55-41.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-55-41.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-56-06.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-56-06.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-56-12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-56-12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-56-18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-56-18.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-56-22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-56-22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-56-48.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-56-48.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-57-00.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-57-00.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-57-37.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-57-37.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-58-02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-58-02.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-58-06.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-58-06.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-58-11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-58-11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-58-22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-06-23-58-22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-09-54.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-09-54.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-10-07.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-10-07.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-10-10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-10-10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-13-56.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-13-56.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-14-21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-14-21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-15-53.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-15-53.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-16-06.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-16-06.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-19-35.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/jobxml-2019-05-07-00-19-35.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/xmlwritetest1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/xmlwritetest1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/XML/xmlwritetest2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/XML/xmlwritetest2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spacejobscrape/companyscripts/Astranis.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/companyscripts/Astranis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spacejobscrape/companyscripts/SpaceX.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/companyscripts/SpaceX.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spacejobscrape/companyscripts/XPrize.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/companyscripts/XPrize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/helperscripts/JobCategory.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/helperscripts/JobCategory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/helperscripts/JobClasses.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/helperscripts/JobClasses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/helperscripts/UploadXML/uploadXML.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/helperscripts/UploadXML/uploadXML.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/helperscripts/WorkdayScrape.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/helperscripts/WorkdayScrape.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spacejobscrape/helperscripts/errorLogger.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/helperscripts/errorLogger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/helperscripts/findLocation.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/helperscripts/findLocation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/helperscripts/indent.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/helperscripts/indent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/helperscripts/isNewJob.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/helperscripts/isNewJob.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/helperscripts/isRepeatJob.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/helperscripts/isRepeatJob.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/helperscripts/metas.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/helperscripts/metas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/helperscripts/tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/helperscripts/tags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/helperscripts/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/helperscripts/util.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spacejobscrape/helperscripts/writeXML.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/helperscripts/writeXML.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/script-templates/companyScrapeTemplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/script-templates/companyScrapeTemplate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/setup.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,80 +152,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spacejobscrape/companyscripts/Astranis.py">
+        <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/isRepeatJob.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="62" column="66" selection-start-line="62" selection-start-column="66" selection-end-line="62" selection-end-column="66" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <element signature="e#110#139#0" expanded="true" />
+                <element signature="e#111#136#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/emailSender/gmail/test_gmail.py">
+        <entry file="file://$PROJECT_DIR$/spacejobscrape/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-117" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/emailSender/gmail/gmail.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
-              <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+            <state relative-caret-position="271">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/JobClasses.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="73" column="45" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/errorLogger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            <state relative-caret-position="459">
+              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spacejobscrape/script-templates/companyScrapeTemplate.py">
+        <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/findLocation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-              <folding>
-                <element signature="e#110#139#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/writeXML.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-              <folding>
-                <element signature="e#111#132#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/metas.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/tags.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="972">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
             </state>
           </provider>
         </entry>
@@ -102,22 +202,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spacejobscrape/companyscripts/SpaceX.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="60" column="66" selection-start-line="60" selection-start-column="66" selection-end-line="60" selection-end-column="66" />
-              <folding>
-                <element signature="e#110#139#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="578">
+              <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spacejobscrape/companyscripts/XPrize.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spacejobscrape/companyscripts/XPrize.py">
+        <entry file="file://$PROJECT_DIR$/spacejobscrape/__main__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="83" column="66" selection-start-line="83" selection-start-column="66" selection-end-line="83" selection-end-column="66" />
+            <state relative-caret-position="170">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/writeXML.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="989">
+              <caret line="139" column="40" selection-start-line="139" selection-start-column="40" selection-end-line="139" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spacejobscrape/companyscripts/Astranis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               <folding>
-                <element signature="e#62#91#0" expanded="true" />
+                <element signature="e#110#125#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -167,7 +291,6 @@
         <option value="$PROJECT_DIR$/spacejobscrape/Old Scripts/writeXML.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/__main__.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/JobClasses.py" />
-        <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/findLocation.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/JobCategory.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/isNewJob.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/UploadXML/uploadXML.py" />
@@ -176,19 +299,22 @@
         <option value="$PROJECT_DIR$/spacejobscrape/test.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/emailSender/gmail/gmail.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/errorLogger.py" />
-        <option value="$PROJECT_DIR$/spacejobscrape/companyscripts/XPrize.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/companyscripts/SpaceX.py" />
-        <option value="$PROJECT_DIR$/spacejobscrape/companyscripts/Astranis.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/metas.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/tags.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/script-templates/companyScrapeTemplate.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/writeXML.py" />
+        <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/findLocation.py" />
+        <option value="$PROJECT_DIR$/spacejobscrape/companyscripts/Astranis.py" />
+        <option value="$PROJECT_DIR$/spacejobscrape/companyscripts/XPrize.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="167" />
+    <option name="y" value="-26" />
+    <option name="width" value="1288" />
+    <option name="height" value="695" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -202,30 +328,18 @@
           <expand>
             <path>
               <item name="spacejobscrape" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobsitewebscrape" type="462c0819:PsiDirectoryNode" />
+              <item name="JobSiteWebscrape" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spacejobscrape" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobsitewebscrape" type="462c0819:PsiDirectoryNode" />
+              <item name="JobSiteWebscrape" type="462c0819:PsiDirectoryNode" />
               <item name="spacejobscrape" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spacejobscrape" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobsitewebscrape" type="462c0819:PsiDirectoryNode" />
+              <item name="JobSiteWebscrape" type="462c0819:PsiDirectoryNode" />
               <item name="spacejobscrape" type="462c0819:PsiDirectoryNode" />
               <item name="companyscripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spacejobscrape" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobsitewebscrape" type="462c0819:PsiDirectoryNode" />
-              <item name="spacejobscrape" type="462c0819:PsiDirectoryNode" />
-              <item name="helperscripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spacejobscrape" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobsitewebscrape" type="462c0819:PsiDirectoryNode" />
-              <item name="spacejobscrape" type="462c0819:PsiDirectoryNode" />
-              <item name="script-templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -486,10 +600,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11058452" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -498,7 +612,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990099" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.22772278" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.1982851" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.28118813" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32970297" />
       <window_info anchor="bottom" id="Python Console" order="9" />
@@ -557,7 +671,7 @@
     <entry file="file://$PROJECT_DIR$/spacejobscrape/tests/WriteXMLTest.py" />
     <entry file="file://$PROJECT_DIR$/spacejobscrape/Old Scripts/writeXML.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
+        <state relative-caret-position="136">
           <caret line="184" selection-start-line="184" selection-end-line="184" />
         </state>
       </provider>
@@ -568,8 +682,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spacejobscrape/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="170">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -617,8 +731,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/isRepeatJob.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#111#136#0" expanded="true" />
           </folding>
@@ -627,21 +741,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spacejobscrape/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/findLocation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="94" column="72" selection-start-line="94" selection-start-column="72" selection-end-line="94" selection-end-column="72" />
-          <folding>
-            <element signature="e#111#126#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="271">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
@@ -664,81 +765,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/JobClasses.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
-          <folding>
-            <element signature="e#111#150#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="484">
+          <caret line="73" column="45" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/emailSender/gmail/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spacejobscrape/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-          <folding>
-            <element signature="e#110#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/emailSender/gmail/message.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="126" column="21" selection-start-line="126" selection-start-column="21" selection-end-line="126" selection-end-column="21" />
-          <folding>
-            <element signature="e#1#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/emailSender/gmail/test_message.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/emailSender/gmail/test_gmail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/emailSender/gmail/gmail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spacejobscrape/companyscripts/XPrize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="83" column="66" selection-start-line="83" selection-start-column="66" selection-end-line="83" selection-end-column="66" />
-          <folding>
-            <element signature="e#62#91#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/emailSender/gmail/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/spacejobscrape/test.py" />
+    <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/emailSender/gmail/message.py" />
+    <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/emailSender/gmail/test_message.py" />
+    <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/emailSender/gmail/test_gmail.py" />
+    <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/emailSender/gmail/gmail.py" />
     <entry file="file://$PROJECT_DIR$/spacejobscrape/companyscripts/SpaceX.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="60" column="66" selection-start-line="60" selection-start-column="66" selection-end-line="60" selection-end-column="66" />
-          <folding>
-            <element signature="e#110#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spacejobscrape/companyscripts/Astranis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="62" column="66" selection-start-line="62" selection-start-column="66" selection-end-line="62" selection-end-column="66" />
-          <folding>
-            <element signature="e#110#139#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="578">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -768,18 +809,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/writeXML.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-          <folding>
-            <element signature="e#111#132#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="989">
+          <caret line="139" column="40" selection-start-line="139" selection-start-column="40" selection-end-line="139" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/errorLogger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        <state relative-caret-position="459">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/findLocation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spacejobscrape/companyscripts/Astranis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#110#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spacejobscrape/companyscripts/XPrize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
         </state>
       </provider>
     </entry>

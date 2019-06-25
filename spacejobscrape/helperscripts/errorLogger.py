@@ -1,12 +1,14 @@
-from spacejobscrape.helperscripts.emailSender.gmail import gmail,message
+from spacejobscrape.helperscripts.emailSender.gmail import gmail, message
+
 
 class scrapeError:
-    def __init__(self,type,script):
+    def __init__(self, type, script):
         self.type = type
         self.script = script
 
+
 class ErrorLogger:
-    def __init__(self,email):
+    def __init__(self, email):
         self.errorlist = []
         self.email = email
 
@@ -16,9 +18,8 @@ class ErrorLogger:
         email.send(msg)
         return
 
-
-    def addError(self,type,script):
-        self.errorlist.append(scrapeError(type,script))
+    def addError(self, type, script):
+        self.errorlist.append(scrapeError(type, script))
         return
 
     def toString(self):

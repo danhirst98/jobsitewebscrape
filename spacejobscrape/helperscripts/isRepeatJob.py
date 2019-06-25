@@ -8,7 +8,9 @@ Created on Mon May  6 23:03:52 2019
 
 from numpy import loadtxt
 from pathlib import Path
+
 from spacejobscrape.helperscripts.JobClasses import Job
+
 
 def addJobToIDList(job):
     """
@@ -30,22 +32,21 @@ def isRepeatJob(job):
     :param job: Job object
     :return: whether job has already been scraped in this instance of the scrape (boolean)
     """
-    if type(job)!=Job:
+    if type(job) != Job:
         raise TypeError("isRepeatJob must have argument of type job")
 
-    
     newidlistname = "./spacejobscrape/%s-newidlist.txt" % str(job.company.name)
     config = Path(newidlistname)
-    #If file does not exists, make file and add first id
+    # If file does not exists, make file and add first id
     print(config.is_file())
     if not config.is_file():
         addJobToIDList(job)
         return False
 
-    idlist = loadtxt(newidlistname,dtype=str)
+    idlist = loadtxt(newidlistname, dtype=str)
     if str(job.id) in idlist:
         return True
     else:
-        #Adds id to the bottom of the newidlist file
+        # Adds id to the bottom of the newidlist file
         addJobToIDList(job)
         return False

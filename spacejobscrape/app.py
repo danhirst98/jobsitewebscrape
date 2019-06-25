@@ -1,7 +1,9 @@
-import os
 import glob
+import os
 import subprocess
+
 from spacejobscrape.helperscripts.UploadXML.uploadXML import uploadXML
+
 
 def run(upload):
     """
@@ -16,7 +18,7 @@ def run(upload):
     for f in recentxmlfiles:
         os.remove(f)
 
-    #Calls each file in companyscripts directory
+    # Calls each file in companyscripts directory
     companyfiles = glob.glob('./spacejobscrape/companyscripts/*.py')
     for f in companyfiles:
         cmd = ['python', str(f)]
