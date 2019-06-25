@@ -20,6 +20,7 @@ def runScrape(timeout=10):
 
     page_link = 'https://jobs.lever.co/astranis'
     page_response = requests.get(page_link, timeout=timeout)
+
     page_content = BeautifulSoup(page_response.content, "html.parser")
 
     alljobswebpage = page_content.findAll('div',attrs={"class":"posting"})
@@ -61,6 +62,7 @@ def runScrape(timeout=10):
         print("Job %s scraped - %s" % (str(i+1),str(title)))
 
     createjoblist(titles,locations,descriptions,company,tags,metas)
+    return True
 
 
 if __name__=="__main__":

@@ -59,6 +59,7 @@ def runScrape(timeout=10):
         print("Job %s scraped - %s" % (str(i+1),str(title)))
 
     createjoblist(titles,locations,descriptions,company,tags,metas)
+    return True
 
 if __name__=="__main__":
     runScrape(10)

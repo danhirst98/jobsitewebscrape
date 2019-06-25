@@ -2,6 +2,7 @@ import os
 import glob
 import subprocess
 from spacejobscrape.helperscripts.UploadXML.uploadXML import uploadXML
+from spacejobscrape.helperscripts.errorLogger import ErrorLogger
 
 def run(upload):
     """
@@ -16,11 +17,19 @@ def run(upload):
     for f in recentxmlfiles:
         os.remove(f)
 
+    errorlogger = ErrorLogger("dan.hirst@seds.org")
+
     #Calls each file in companyscripts directory
     companyfiles = glob.glob('./spacejobscrape/companyscripts/*.py')
     for f in companyfiles:
         cmd = ['python', str(f)]
-        subprocess.call(cmd)
+        try:
+            subprocess.run(cmd)
+        except Exception as e:
+            errorlogger.addError(e,f)
 
     if upload:
         uploadXML()
+
+    errorlogger.sendSummaryEmail()
+    return True

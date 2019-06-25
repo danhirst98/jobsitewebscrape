@@ -15,6 +15,7 @@ import os
 from spacejobscrape.helperscripts.indent import indent
 from spacejobscrape.helperscripts.findLocation import findLocations
 from lxml import etree as ET
+from spacejobscrape.helperscripts.UploadXML.uploadXMLNew import uploadXML
 
 
 def createjoblist(title,location,desc,company,tags=[],metas=[]):
@@ -34,7 +35,7 @@ def createjoblist(title,location,desc,company,tags=[],metas=[]):
     for i in range(len(title)):
         newJob = Job(title[i],desc[i],company,location_refactored[i],tags,metas,3)
         joblist.append(newJob)
-    writeXML(joblist,True)
+    writeXML(joblist,True,True)
     return
 
 
@@ -45,7 +46,7 @@ def writejob(job):
     :param job: job object
     :return: Job formatted as XML (lxml.etree.Element object)
     """
-    if type(job)!=Job:
+    if not type(job)==Job:
         raise TypeError("Argument job must be type Job")
         
     #Creation of job xml format
@@ -105,7 +106,7 @@ def updateJob(job):
     return jobel
 
 
-def writeXML(joblist, alljobs):
+def writeXML(joblist, alljobs,upload):
     """
     Iterates through jobs to create a single XML file with all job information for WPJobBoard upload
 
@@ -153,7 +154,10 @@ def writeXML(joblist, alljobs):
     for company in companyset:
         os.rename("./spacejobscrape/%s-newidlist.txt" % (company),"./spacejobscrape/idlists/%s-idlist.txt" % (company))
 
-    return
+    if upload:
+        uploadXML(ET.tostring(root))
+
+    return True
 
 
 

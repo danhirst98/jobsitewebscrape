@@ -82,6 +82,7 @@ def runScrape(timeout=10):
 
 
     createjoblist(titles,locations,descriptions,company,tags,metas)
+    return True
 
 if __name__=="__main__":
     runScrape()

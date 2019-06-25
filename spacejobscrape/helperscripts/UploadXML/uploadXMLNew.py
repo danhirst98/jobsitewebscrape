@@ -7,17 +7,13 @@ def uploadXML(xml):
 
     :return: void
     """
+    #TODO: Add check/conversion if type of xml arg is lxml.etree
 
     #Finding path for the php file and the recent xml files
-    php_path = ".spacejobscrape/helperscripts/UploadXML/XML_Upload_PHP_BASE.php"
+    php_path = "./spacejobscrape/helperscripts/UploadXML/XML_Upload_PHP_BASE.php"
     xml_path = "./spacejobscrape/recentXML/"
 
-    #Opens the recentXML folder and gets all of the xml in the form of a string
-    with os.scandir(xml_path) as entries:
-        for entry in entries:
-            if entry.is_file():
-                with open(xml_path + entry.name) as xml_file:
-                    xml = '$xml = "' + xml_file.read() + '";'
+    xml = '$xml = "%s";' % str(xml)
 
     #Opens the base php file
     with open(php_path) as php_file:
