@@ -1,28 +1,28 @@
-from multiprocessing import Process, Array
 import sys
+from multiprocessing import Process, Array
+
 import util
+
 
 class JobPosting(object):
     '''
     Holds basic information for each job posting
     '''
+
     def __init__(self, post, base_url):
         self.ID = post['id']
 
-        #we can extract generally useful information from 'text' keys
+        # we can extract generally useful information from 'text' keys
         labels = list(util.extract_all_keys(post, 'text'))
         self.info = {'labels': labels}
 
         self.url = base_url + post['title']['commandLink']
 
 
-
-
 def get_job_postings(main_link, dest_dir, thread_count, verbose):
-
     postings_page_dic = util.get_request_to_dic(main_link, verbose)
 
-    #find the pagination end point
+    # find the pagination end point
     end_points = util.extract_key(postings_page_dic, 'endPoints')
     base_url = main_link.split('.com')[0] + '.com'
     pagination_end_point = base_url
@@ -32,14 +32,13 @@ def get_job_postings(main_link, dest_dir, thread_count, verbose):
             pagination_end_point += end_point['uri'] + '/'
             break
 
-
-    #paginate until we have all the postings
+    # paginate until we have all the postings
     if verbose:
         print("Scraping list of all job postings..\n")
     job_postings = []
     while True:
 
-        #attempt to retrieve list of job postings from json response
+        # attempt to retrieve list of job postings from json response
         postings_list = util.extract_key(postings_page_dic, 'listItems')
         if postings_list is None:
             break
@@ -56,7 +55,7 @@ def get_job_postings(main_link, dest_dir, thread_count, verbose):
     threads = []
     for i in range(thread_count):
         start = int(i * len(job_postings) / thread_count)
-        end = int((i+1) * len(job_postings) / thread_count)
+        end = int((i + 1) * len(job_postings) / thread_count)
         thread = Process(target=get_job_description, args=(job_postings, start, end, dest_dir, verbose))
         threads.append(thread)
         thread.start()
@@ -66,6 +65,7 @@ def get_job_postings(main_link, dest_dir, thread_count, verbose):
 
     if verbose:
         print("\nDone. All files stored under", dest_dir)
+
 
 def get_job_description(job_postings, start, end, dest_dir, verbose=False):
     '''
@@ -88,9 +88,6 @@ def get_job_description(job_postings, start, end, dest_dir, verbose=False):
         util.write_to_file(job_posting.ID, job_info, dest_dir)
 
 
-
-
-
 def read_command(argv):
     """
     Processes the command used to get job postings from the command line.
@@ -108,10 +105,14 @@ def read_command(argv):
     """
     parser = OptionParser(usageStr)
 
-    parser.add_option('-u', '--url', type='string', dest='main_link', help=default('Job Posting URL'), default='https://mastercard.wd1.myworkdayjobs.com/CorporateCareers')
-    parser.add_option('-d', '--dest', type='string', dest='dest_dir', help=default('Destination Directory'), default='./test')
-    parser.add_option('-t', '--threads', type='int', dest='thread_count', help=default('Number of parallel threads'), default=4)
-    parser.add_option('-v', '--verbose', action='store_true', dest='verbose', help=default('Verbose output to sdout'), default=False)
+    parser.add_option('-u', '--url', type='string', dest='main_link', help=default('Job Posting URL'),
+                      default='https://mastercard.wd1.myworkdayjobs.com/CorporateCareers')
+    parser.add_option('-d', '--dest', type='string', dest='dest_dir', help=default('Destination Directory'),
+                      default='./test')
+    parser.add_option('-t', '--threads', type='int', dest='thread_count', help=default('Number of parallel threads'),
+                      default=4)
+    parser.add_option('-v', '--verbose', action='store_true', dest='verbose', help=default('Verbose output to sdout'),
+                      default=False)
     options, otherjunk = parser.parse_args(argv)
     assert len(otherjunk) == 0, "Unrecognized options: " + str(otherjunk)
     return vars(options)
@@ -120,8 +121,10 @@ def read_command(argv):
 def default(str):
     return str + ' [Default: %default]'
 
+
 def parse_comma_separated_args(option, opt, value, parser):
     setattr(parser.values, option.dest, value.split(','))
+
 
 if __name__ == '__main__':
     options = read_command(sys.argv[1:])

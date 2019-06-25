@@ -1,6 +1,7 @@
-from urllib.request import Request, urlopen, HTTPError
-import os
 import json
+import os
+from urllib.request import Request, urlopen, HTTPError
+
 
 def extract_key(elem, key):
     '''
@@ -39,7 +40,7 @@ def extract_all_keys(elem, key):
     Returns:
         Generator representing all occurences of elem[key]
     '''
-    if hasattr(elem,'items'):
+    if hasattr(elem, 'items'):
         for k, v in elem.items():
             if k == key:
                 yield v
@@ -61,7 +62,7 @@ def get_request_to_dic(link, verbose=False):
     '''
     req = Request(link)
 
-    #get json info from url
+    # get json info from url
     req.add_header("Accept", "application/json,application/xml")
 
     if verbose:
@@ -78,7 +79,7 @@ def get_request_to_dic(link, verbose=False):
 
 def write_to_file(name, content, dest_dir):
     json_str = json.dumps(content)
-    file_name = dest_dir+"/"+name+".json"
+    file_name = dest_dir + "/" + name + ".json"
     os.makedirs(os.path.dirname(file_name), exist_ok=True)
     f = open(file_name, "w")
     f.write(json_str)
