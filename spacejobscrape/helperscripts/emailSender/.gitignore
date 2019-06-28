@@ -1,0 +1,8 @@
+venv
+*.swp
+*.pyc
+*~
+gmail.egg-info
+build
+dist
+__pycache__
