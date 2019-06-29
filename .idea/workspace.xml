@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ceff1550-6415-490f-aa50-5d25c3bf35b9" name="Default" comment="">
+    <list default="true" id="ceff1550-6415-490f-aa50-5d25c3bf35b9" name="Default" comment="Added instructions about tags and metas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacejobscrape/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spacejobscrape/companyscripts/Astranis.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/companyscripts/Astranis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spacejobscrape/companyscripts/SpaceX.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/companyscripts/SpaceX.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spacejobscrape/companyscripts/XPrize.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/companyscripts/XPrize.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spacejobscrape/helperscripts/JobClasses.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/helperscripts/JobClasses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spacejobscrape/helperscripts/metas.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/helperscripts/metas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spacejobscrape/helperscripts/tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/helperscripts/tags.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spacejobscrape/helperscripts/writeXML.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/helperscripts/writeXML.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spacejobscrape/idlists/SpaceX-idlist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/idlists/SpaceX-idlist.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spacejobscrape/script-templates/companyScrapeTemplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacejobscrape/script-templates/companyScrapeTemplate.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,28 +20,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/JobCategory.py">
+        <entry file="file://$PROJECT_DIR$/spacejobscrape/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/tags.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/metas.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <state relative-caret-position="194">
+              <caret line="23" column="77" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/JobClasses.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
+            <state relative-caret-position="855">
               <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
               <folding>
                 <element signature="e#111#125#0" expanded="true" />
@@ -68,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spacejobscrape/companyscripts/Astranis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+            <state relative-caret-position="870">
+              <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
               <folding>
                 <element signature="e#110#139#0" expanded="true" />
               </folding>
@@ -80,10 +63,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spacejobscrape/companyscripts/SpaceX.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-467">
-              <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+            <state relative-caret-position="855">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="e#110#139#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spacejobscrape/__main__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+              <folding>
+                <element signature="e#110#140#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spacejobscrape/companyscripts/XPrize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="419">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
               <folding>
                 <element signature="e#62#91#0" expanded="true" />
               </folding>
@@ -104,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spacejobscrape/script-templates/companyScrapeTemplate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="64" column="58" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
+            <state relative-caret-position="404">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
             </state>
           </provider>
         </entry>
@@ -113,11 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/writeXML.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-560">
-              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-              <folding>
-                <element signature="e#111#132#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-120">
+              <caret line="14" column="29" selection-start-line="14" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -164,7 +156,6 @@
         <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/createJobList.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/companyscripts/BlueOrigin.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/Old Scripts/writeXML.py" />
-        <option value="$PROJECT_DIR$/spacejobscrape/__main__.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/findLocation.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/JobCategory.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/isNewJob.py" />
@@ -172,23 +163,25 @@
         <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/emailSender/gmail/gmail.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/test.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/errorLogger.py" />
-        <option value="$PROJECT_DIR$/spacejobscrape/app.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/UploadXML/uploadXML.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/UploadXML/uploadXMLNew.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/metas.py" />
-        <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/tags.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/JobClasses.py" />
-        <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/writeXML.py" />
+        <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/tags.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/script-templates/companyScrapeTemplate.py" />
-        <option value="$PROJECT_DIR$/spacejobscrape/companyscripts/Astranis.py" />
-        <option value="$PROJECT_DIR$/spacejobscrape/companyscripts/SpaceX.py" />
         <option value="$PROJECT_DIR$/spacejobscrape/companyscripts/XPrize.py" />
+        <option value="$PROJECT_DIR$/spacejobscrape/companyscripts/SpaceX.py" />
+        <option value="$PROJECT_DIR$/spacejobscrape/companyscripts/Astranis.py" />
+        <option value="$PROJECT_DIR$/spacejobscrape/helperscripts/writeXML.py" />
+        <option value="$PROJECT_DIR$/spacejobscrape/app.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
+        <option value="$PROJECT_DIR$/spacejobscrape/__main__.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -196,7 +189,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,23 +217,18 @@
               <item name="spacejobscrape" type="b2602c69:ProjectViewProjectNode" />
               <item name="jobsitewebscrape" type="462c0819:PsiDirectoryNode" />
               <item name="spacejobscrape" type="462c0819:PsiDirectoryNode" />
-              <item name="helperscripts" type="462c0819:PsiDirectoryNode" />
-              <item name="UploadXML" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spacejobscrape" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobsitewebscrape" type="462c0819:PsiDirectoryNode" />
-              <item name="spacejobscrape" type="462c0819:PsiDirectoryNode" />
               <item name="script-templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/spacejobscrape/helperscripts/UploadXML" />
     <property name="settings.editor.selected.configurable" value="Console" />
   </component>
@@ -296,13 +283,13 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6" />
+      <option name="SDK_HOME" value="/anaconda3/bin/python " />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="false" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spacejobscrape" />
-      <option name="PARAMETERS" value="" />
+      <option name="PARAMETERS" value="-u -a -e 'dan.hirst@seds.org' -c &quot;Astranis XPrize&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="false" />
@@ -323,6 +310,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spacejobscrape" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/anaconda3/bin/python " />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -407,7 +415,13 @@
     <list>
       <item itemvalue="Python.WebScrape" />
       <item itemvalue="Python.Test" />
+      <item itemvalue="Python.scratch_1" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.scratch_1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -525,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561763682228</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added instructions about tags and metas">
+      <created>1561813095143</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1561813095143</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -541,12 +562,12 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16679905" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16679905" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32871288" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44520548" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23835616" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990099" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -681,13 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spacejobscrape/__main__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/findLocation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="518">
@@ -755,16 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spacejobscrape/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/UploadXML/uploadXMLNew.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -786,56 +790,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spacejobscrape/script-templates/companyScrapeTemplate.py">
+    <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/tags.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="64" column="58" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spacejobscrape/companyscripts/Astranis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-          <folding>
-            <element signature="e#110#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spacejobscrape/companyscripts/XPrize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="e#62#91#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/writeXML.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-560">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-          <folding>
-            <element signature="e#111#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spacejobscrape/companyscripts/SpaceX.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-467">
-          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-          <folding>
-            <element signature="e#110#139#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1185">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/JobClasses.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
+        <state relative-caret-position="855">
           <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
           <folding>
             <element signature="e#111#125#0" expanded="true" />
@@ -846,10 +810,70 @@
     <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/util.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/tags.py">
+    <entry file="file://$PROJECT_DIR$/spacejobscrape/script-templates/companyScrapeTemplate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="404">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spacejobscrape/companyscripts/XPrize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="e#62#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spacejobscrape/companyscripts/SpaceX.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#110#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spacejobscrape/helperscripts/writeXML.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="14" column="29" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spacejobscrape/companyscripts/Astranis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
+          <folding>
+            <element signature="e#110#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spacejobscrape/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="23" column="77" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spacejobscrape/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+          <folding>
+            <element signature="e#110#140#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

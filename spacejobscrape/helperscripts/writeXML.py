@@ -18,7 +18,7 @@ from lxml import etree as ET
 from spacejobscrape.helperscripts.UploadXML.uploadXMLNew import uploadXML
 
 
-def createjoblist(title,location,desc,company):
+def createjoblist(verbose,upload,alljobs,title,location,desc,company):
     """
     Converts lists of raw data into job objects for XML creation.
 
@@ -35,7 +35,7 @@ def createjoblist(title,location,desc,company):
     for i in range(len(title)):
         newJob = Job(title[i],desc[i],company,location_refactored[i],3)
         joblist.append(newJob)
-    writeXML(joblist,True,True)
+    writeXML(joblist,verbose,upload,alljobs)
     return
 
 
@@ -106,7 +106,7 @@ def updateJob(job):
     return jobel
 
 
-def writeXML(joblist, alljobs,upload):
+def writeXML(joblist,verbose, alljobs,upload):
     """
     Iterates through jobs to create a single XML file with all job information for WPJobBoard upload
 

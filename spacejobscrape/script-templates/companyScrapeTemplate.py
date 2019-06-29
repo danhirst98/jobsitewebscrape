@@ -14,7 +14,7 @@ from spacejobscrape.helperscripts.tags import getTags
 from spacejobscrape.helperscripts.writeXML import createjoblist
 
 
-def runScrape(timeout=10):
+def runScrape(verbose,upload,alljobs,timeout):
     # 1. Initialise Company Object, with all the information needed to attach to a job page.
     # 1.5. Go into Wordpress and create a company account for this company. Most important is the company id
     company = JC.Company(0, "Company Name", "www.companyurl.com", "Company Email")
@@ -64,6 +64,3 @@ def runScrape(timeout=10):
 
     createjoblist(titles, locations, descriptions, company)
 
-
-if __name__ == "__main__":
-    runScrape()

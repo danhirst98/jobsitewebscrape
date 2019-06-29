@@ -3,8 +3,9 @@ import glob
 import subprocess
 from spacejobscrape.helperscripts.UploadXML.uploadXML import uploadXML
 from spacejobscrape.helperscripts.errorLogger import ErrorLogger
+import importlib
 
-def run(upload):
+def run(verbose,upload,alljobs,timeout,email,companies):
     """
     Clears recentXML directory then runs each company script in companyscripts, to create an XML for all jobs available at that company
 
@@ -17,19 +18,25 @@ def run(upload):
     for f in recentxmlfiles:
         os.remove(f)
 
-    errorlogger = ErrorLogger("dan.hirst@seds.org")
+    #Creates error logger object. Will report any issues to the given email
+    errorlogger = ErrorLogger(email)
 
-    #Calls each file in companyscripts directory
-    companyfiles = glob.glob('./spacejobscrape/companyscripts/*.py')
+    #if company parameter was given, only iterate through the given companies
+    if companies:
+        companyfiles = companies
+    else:
+        #Calls each file in companyscripts directory
+        companyfiles = glob.glob('./spacejobscrape/companyscripts/*.py')
+
+
     for f in companyfiles:
-        cmd = ['python', str(f)]
-        try:
-            subprocess.run(cmd)
-        except Exception as e:
-            errorlogger.addError(e,f)
-
-    if upload:
-        uploadXML()
+        name = os.path.splitext(os.path.basename(f))[0]
+        if name=='__init__':
+            continue
+        print("\n%s\n" % name)
+        name = "spacejobscrape.companyscripts." + name
+        mod = importlib.import_module(name)
+        mod.runScrape(verbose, upload, alljobs,timeout)
 
     errorlogger.sendSummaryEmail()
     return True

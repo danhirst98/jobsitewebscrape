@@ -10,7 +10,7 @@ import requests
 import spacejobscrape.helperscripts.JobClasses as JC
 from spacejobscrape.helperscripts.writeXML import createjoblist
 
-def runScrape(timeout=10):
+def runScrape(verbose,upload,alljobs,timeout):
     #Sets the company for the script. Change each company
     company = JC.Company(2,"Astranis","www.astranis.com","test@astranis.com")
 
@@ -53,13 +53,8 @@ def runScrape(timeout=10):
 
         desc = str(page_content.find('div',{"class":"content"}))
 
-
         descriptions.append(desc)
         print("Job %s scraped - %s" % (str(i+1),str(title)))
 
-    createjoblist(titles,locations,descriptions,company)
+    createjoblist(verbose,upload,alljobs,titles,locations,descriptions,company)
     return True
-
-
-if __name__=="__main__":
-    runScrape()

@@ -11,7 +11,7 @@ import requests
 from spacejobscrape.helperscripts.JobClasses import Company
 from spacejobscrape.helperscripts.writeXML import createjoblist
 
-def runScrape(timeout=10):
+def runScrape(verbose,upload,alljobs,timeout):
     #Sets the company for the script. Change each company
     company = Company(1,"SpaceX","www.spacex.com","elon@spacex.com")
 
@@ -56,5 +56,3 @@ def runScrape(timeout=10):
     createjoblist(titles,locations,descriptions,company)
     return True
 
-if __name__=="__main__":
-    runScrape(10)

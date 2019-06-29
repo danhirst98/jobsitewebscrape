@@ -9,7 +9,7 @@ import requests
 import spacejobscrape.helperscripts.JobClasses as JC
 from spacejobscrape.helperscripts.writeXML import createjoblist
 
-def runScrape(timeout=10):
+def runScrape(verbose,upload,alljobs,timeout):
     #Sets the company for the script. Change each company
     company = JC.Company(3, "XPrize", "https://www.xprize.org/home", "test@blueorigin.com")
 
@@ -77,6 +77,3 @@ def runScrape(timeout=10):
 
     createjoblist(titles,locations,descriptions,company)
     return True
-
-if __name__=="__main__":
-    runScrape()
