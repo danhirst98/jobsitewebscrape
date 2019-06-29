@@ -59,13 +59,10 @@ def runScrape(timeout=10):
         # 4. Identify the job description, and isolate it. Include the HTML formatting (we use it to keep the job pretty on our site)
         desc = str(page_content.find('div', {"class": "content"}))
 
-        tags = getTags()
-        metas = getMetas()
-
         descriptions.append(desc)
         print("Job %s scraped - %s" % (str(i + 1), str(title)))
 
-    createjoblist(titles, locations, descriptions, company, tags, metas)
+    createjoblist(titles, locations, descriptions, company)
 
 
 if __name__ == "__main__":

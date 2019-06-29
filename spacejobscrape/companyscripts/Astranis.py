@@ -9,8 +9,6 @@ from bs4 import BeautifulSoup
 import requests
 import spacejobscrape.helperscripts.JobClasses as JC
 from spacejobscrape.helperscripts.writeXML import createjoblist
-from spacejobscrape.helperscripts.tags import getTags
-from spacejobscrape.helperscripts.metas import getMetas
 
 def runScrape(timeout=10):
     #Sets the company for the script. Change each company
@@ -55,13 +53,11 @@ def runScrape(timeout=10):
 
         desc = str(page_content.find('div',{"class":"content"}))
 
-        tags = getTags()
-        metas = getMetas()
 
         descriptions.append(desc)
         print("Job %s scraped - %s" % (str(i+1),str(title)))
 
-    createjoblist(titles,locations,descriptions,company,tags,metas)
+    createjoblist(titles,locations,descriptions,company)
     return True
 
 

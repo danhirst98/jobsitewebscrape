@@ -69,13 +69,13 @@ def getExperienceLevel(title,desc):
     """
 
 
-def getTags():
+def getTags(title,desc):
     """
     Script that will run the tag identifier scripts
 
     This will probably be integrated into the job class, but I need to do some playing around to make sure it is useful. Play with this if you want but don't worry.
 
-    :return: complete list of tags (list of tuples probably)
+    :return: complete list of tags (dict probably)
     """
 
-    return []
+    return {}

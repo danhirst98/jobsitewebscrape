@@ -10,8 +10,6 @@ import requests
 
 from spacejobscrape.helperscripts.JobClasses import Company
 from spacejobscrape.helperscripts.writeXML import createjoblist
-from spacejobscrape.helperscripts.tags import getTags
-from spacejobscrape.helperscripts.metas import getMetas
 
 def runScrape(timeout=10):
     #Sets the company for the script. Change each company
@@ -51,14 +49,11 @@ def runScrape(timeout=10):
 
         title = str(titles[i])
 
-        tags = getTags()
-        metas = getMetas()
-
         desc = str(page_content.find('div',{"id":"content"}))
         descriptions.append(desc)
         print("Job %s scraped - %s" % (str(i+1),str(title)))
 
-    createjoblist(titles,locations,descriptions,company,tags,metas)
+    createjoblist(titles,locations,descriptions,company)
     return True
 
 if __name__=="__main__":

@@ -8,6 +8,8 @@ Created on Mon Apr 29 21:53:49 2019
 
 import hashlib
 from datetime import datetime, timedelta
+from spacejobscrape.helperscripts.tags import getTags
+from spacejobscrape.helperscripts.metas import getMetas
 
 
 class Job:
@@ -24,7 +26,7 @@ class Job:
     daysactive -- number of days you want the job to be active on the website (int)
     """
 
-    def __init__(self, title, desc, company, location, tags, metas, daysactive):
+    def __init__(self, title, desc, company, location, daysactive):
 
         # Checks for correct type of input
         if type(title) != str:
@@ -56,8 +58,8 @@ class Job:
         self.approved = 0
         self.filled = 0
         self.feat = 0
-        self.tags = tags
-        self.metas = metas
+        self.tags = getTags(title,desc)
+        self.metas = getMetas()
 
 
 # TODO: Add check to see if string says "Remote". If it is, add a 'remote' tag

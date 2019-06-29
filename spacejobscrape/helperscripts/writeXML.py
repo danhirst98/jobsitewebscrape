@@ -18,7 +18,7 @@ from lxml import etree as ET
 from spacejobscrape.helperscripts.UploadXML.uploadXMLNew import uploadXML
 
 
-def createjoblist(title,location,desc,company,tags=[],metas=[]):
+def createjoblist(title,location,desc,company):
     """
     Converts lists of raw data into job objects for XML creation.
 
@@ -33,7 +33,7 @@ def createjoblist(title,location,desc,company,tags=[],metas=[]):
     location_refactored = findLocations(location)
     joblist = []
     for i in range(len(title)):
-        newJob = Job(title[i],desc[i],company,location_refactored[i],tags,metas,3)
+        newJob = Job(title[i],desc[i],company,location_refactored[i],3)
         joblist.append(newJob)
     writeXML(joblist,True,True)
     return
