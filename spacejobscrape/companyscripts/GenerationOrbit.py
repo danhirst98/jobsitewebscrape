@@ -25,7 +25,7 @@ def runScrape(verbose,upload,alljobs,timeout):
 
     for jobs in jobsContainer:
         title = jobs.a.text
-        location = jobs.find("span", {"class":"BambooHR-ATS-Location"}).text + ", USA"
+        location = jobs.find("span", attrs={"class":"BambooHR-ATS-Location"}).text + ", USA"
         link = jobs.a["href"]
 
         if link.startswith("//"):
