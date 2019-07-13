@@ -13,7 +13,7 @@ def runScrape(verbose,upload,alljobs,timeout):
     company = JC.Company(9,"Bigelow","https://bigelowaerospace.com/","info@bigelowspaceops.com")
 
     page_link = "https://bigelowaerospace.com/pages/job-opportunities/"
-    page_response = requests.get(page_link)
+    page_response = requests.get(page_link, timeout=timeout)
     page_content = BeautifulSoup(page_response.content, "html.parser")
 
     alljobswebpage = page_content.findAll("p")
@@ -39,7 +39,7 @@ def runScrape(verbose,upload,alljobs,timeout):
     descriptions = []
     for i in range(len(links)):
         page_link = links[i]
-        page_response = requests.get(page_link)
+        page_response = requests.get(page_link, timeout=timeout)
         page_content = BeautifulSoup(page_response.content, "html.parser")
 
         title = str(titles[i])
