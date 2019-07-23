@@ -1,3 +1,7 @@
+'''
+Author: JJ Fiedler
+'''
+
 from selenium import webdriver
 import pyautogui
 import pyperclip
