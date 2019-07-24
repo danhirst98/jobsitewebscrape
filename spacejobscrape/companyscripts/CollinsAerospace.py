@@ -32,7 +32,7 @@ def runScrape(verbose,upload,alljobs,timeout):
     page_content = BeautifulSoup(page_json["results"], "html.parser")
     jobContainer = page_content.findAll("li")
 
-    #Removing page filter item
+    #Removing page filter header
     jobContainer = jobContainer[1:]
 
     #Creates list of titles, locations and links to the application website
